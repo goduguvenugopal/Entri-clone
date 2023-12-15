@@ -50,4 +50,84 @@ box-shadow: 0px 0px 3px;
     box-shadow: 0px 0px 2px;
     padding-top: 6px;
  }
- 
+ .good-head{
+    font-size: 19px;
+    font-family: roboto;
+    font-weight: 600;
+ }
+ .good-head-p{
+    font-size: 19px;
+    font-family: roboto;
+    font-weight: 600;
+    color: white;
+ }
+ .great-para{
+    font-size: 15px;
+    font-family: robot;
+    font-weight: 200;
+
+ }
+ .great-para1{
+    font-size: 13px;
+    color: rgb(126, 128, 127);
+    font-family: robot;
+    
+
+ }
+ .readingbook-cont{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+ }
+ .btn-bt{
+    font-size: 13px;
+    font-weight: bold;
+     
+    color: white;
+    background-color: rgb(6, 182, 218);
+    width: 279px;
+    height: 35px;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    border-radius: 30px;
+     border-width: 0px;
+
+ }
+ .second-cont{
+    display: flex;
+     
+    
+    
+ }
+
+ .car{
+    border: 1px solid;
+    height: 40px;
+
+ }
+
+ body {
+    margin: 0;
+    
+    overflow-x: hidden;
+  }
+
+  .gallery-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    
+  }
+
+  .photo {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+
+  .img1{
+    width: 100%;
+    height: auto;
+  }
