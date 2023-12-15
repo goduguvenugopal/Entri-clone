@@ -1,0 +1,53 @@
+.sub-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo-img{
+    height: 30px;
+
+}
+.head-cont{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 4px;
+    
+}
+.fire-icon{
+    height: 24px;
+    width:24px;
+    color: red;
+    margin-right: 0px;
+}
+
+.cont-logo{
+box-shadow: 0px 0px 3px;
+}
+ 
+ 
+ .wall-icon{
+    height: 20px;
+     margin-top: 5px;
+     color: rgb(185, 105, 105);
+     margin-left: 9px;
+ }
+ .icon-container{
+    box-sizing: border-box;
+ }
+ .zero{
+    font-weight: bold;
+ }
+
+ .nav-cont{
+    display: flex;
+     
+    justify-content: space-around;
+ }
+ .nav-main-cont{
+    box-shadow: 0px 0px 2px;
+    padding-top: 6px;
+ }
+ 
