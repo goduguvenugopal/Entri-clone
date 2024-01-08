@@ -219,7 +219,7 @@
   justify-content: center;
   align-items: center;
 }
-.btn-bt {
+#btn-bt {
   font-size: 13px;
   font-weight: bold;
 
@@ -232,6 +232,70 @@
   border-radius: 30px;
   border-width: 0px;
 }
+
+#searchstyle{
+  width: 360px;
+  height: 40px;
+  border-radius: 29px;
+  border: 1px solid rgb(172, 168, 168);
+}
+
+.courses-card{
+  display: flex;
+  flex-direction:;
+  justify-content: space-around;
+  margin-top: 20px;
+  cursor: pointer;
+  
+}
+
+.bank-card{
+  background-color: #ece9e9b5;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+.iconser{
+  position: relative;
+  left:325px;
+  bottom: 30px;
+
+  
+  cursor: pointer;
+  
+}
+
+.bank-icon{
+  width: 70px;
+}
+.bank-head{
+  line-height: 0.7;
+}
+.bank-para{
+  font-size: 13px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .second-cont {
   display: flex;
 }
