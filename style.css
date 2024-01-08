@@ -338,3 +338,7 @@ top: 7px;
 .webcard{
   margin-right: 70px;
 }
+
+#skillspageid{
+   display: none;
+}
