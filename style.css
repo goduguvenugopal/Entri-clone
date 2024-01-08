@@ -238,7 +238,7 @@
   height: 40px;
   border-radius: 29px;
   border: 1px solid rgb(172, 168, 168);
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .courses-card{
@@ -252,7 +252,7 @@
 
 .bank-card{
   background-color: #ece9e9b5;
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
    width: 150;
    height: 150px;
@@ -261,7 +261,7 @@
 
 .iconser{
   position: relative;
-  left:307px;
+  left:295px;
   bottom: 30px;
 
   
