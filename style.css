@@ -160,7 +160,7 @@
  
 
 .sections:hover{
-  color: rgb(6, 182, 218);
+  color: rgba(10, 184, 219, 0.904);
   cursor: pointer;
 
 }
@@ -168,11 +168,7 @@
 
 
 .sections {
-  -webkit-user-select: none;
-  -webkit-touch-callout: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  
   color: #a59d9d;
 }
 
