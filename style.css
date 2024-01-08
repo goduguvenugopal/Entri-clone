@@ -254,12 +254,14 @@
   background-color: #ece9e9b5;
   padding: 15px;
   border-radius: 10px;
+   width: 150;
+   height: 150px;
   
 }
 
 .iconser{
   position: relative;
-  left:325px;
+  left:307px;
   bottom: 30px;
 
   
