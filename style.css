@@ -173,14 +173,6 @@
 }
 
 
-
-
-
-
-
-
-
-
  .nav-cont {  
   display: flex;
 
@@ -192,7 +184,7 @@
 }
 .good-head {
   font-size: 19px;
-  font-family: roboto;
+  /* font-family: roboto; */
   font-weight: 600;
 }
 .good-head-p {
@@ -200,6 +192,7 @@
   font-family: roboto;
   font-weight: 600;
   color: white;
+  
 }
 .great-para {
   font-size: 15px;
@@ -279,29 +272,9 @@
   font-size: 13px;
    
 }
+ 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.second-cont {
-  display: flex;
-}
+ 
 
 .car {
   border: 1px solid;
@@ -320,9 +293,48 @@
   width: 300px;
   margin: 10px;
   box-sizing: border-box;
+  background-color: white;
+  border-radius: 15px;
 }
 
 .img1 {
   width: 100%;
   height: auto;
+  border-radius: 15px;
+}
+
+.heartsymb{
+color: red;
+font-size: 40px;
+position: relative;
+top: 7px;
+
+}
+.skills-cont{
+  height: 110%;
+}
+
+.skills-cont-last{
+  height: 150%;
+  margin-bottom:70px ;
+
+}
+
+.topslide-card{
+  border-radius: 15px;
+}
+
+.card-title{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+
+.card-text{
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.webcard{
+  margin-right: 70px;
 }
