@@ -437,3 +437,51 @@ top: 7px;
   background-color: #f5f1f1;
   
 }
+
+/* premium section styling starts here  */
+
+.preheight{
+  height: 100vh;
+
+  
+}
+
+ .gold-nav-card{
+   background-color: white;
+   box-shadow: 6px 0px 5px rgb(222, 220, 220);
+   
+     
+
+ }
+
+.exam-gold-head{
+  padding-top: 5px;
+   font-size: 20px;
+
+}
+
+
+.border-cont:hover{
+  border-bottom: solid 3px rgb(42, 192, 234);
+ cursor: pointer;
+ /* background-color:rgb(203, 202, 202) ; */
+}
+
+
+.list-gold-head{
+  /* font-size: 15px; */
+  color: white;
+}
+
+li{
+ color: gold; 
+}
+.gold-card{
+  border-radius: 20px;
+  height: 150px;
+  padding: 10px;
+  border: solid 5px gold;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
