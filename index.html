@@ -139,7 +139,7 @@
     </header>
 
     <!-- header completed here  -->
-
+    <!-- bottom navbar -->
     <div class="container-fluid">
       <div class="row">
         <div class="colo-12">
@@ -171,11 +171,18 @@
               <span class="material-symbols-outlined downicon"> group </span>
               <h4 class="sidehead">Doubts</h4>
             </div>
-            <div class="sections text-center">
+            <div class="sections d-block d-md-none text-center">
               <span class="material-symbols-outlined downicon">
                 page_control</span
               >
               <h4 class="sidehead">More</h4>
+            </div>
+
+            <div class="sections d-none d-md-block text-center" id="closeid">
+              <span class="material-symbols-outlined downicon">
+                headset_mic</span
+              >
+              <h4 class="sidehead">Contact Us</h4>
             </div>
           </div>
         </div>
@@ -184,7 +191,7 @@
       <!-- bottom navbar completed -->
       <!-- exams page -->
 
-      <div class="container pb-5 " id="exampageid">
+      <div class="container pb-5" id="exampageid">
         <div class="row">
           <div class="col-12 pt-4 d-none d-md-block">
             <h4 class="good-head">Hey, Good Afternoon</h4>
@@ -567,45 +574,125 @@
     </div>
 
     <!-- skills page completed -->
+     <!-- contacts page starts here  -->
 
+    <div class="container-fluid conty-pop pt-3 mt-2" id="contpop">
+      <div class="row">
+        <div class="col-12">
+          <div class="contact-cont ">
+            <div class="contact-card1 ">
+              <div class="d-flex">
+                <img
+                  src="https://webapp.entri.app/static/media/entri_logo.070560667f4517788fb23d580d24d33a.svg"
+                  class="logo-img"
+                />
+                <h3 class="head-cont">ENTRI</h3>
+              </div>
+              <div class="" id="close-bt-pop">
+                <span class="material-symbols-outlined mt-1"> close </span>
+              </div>
+            </div>
+           
+       
+         <div class="contact-us">
+          <h5 class="head-chat text-dark">Contact Us</h5><hr>
+          <h5 class="head-para text-dark">Entri chat support</h5>
+         </div>
+
+         <div class="contact-us mt-4">
+          <h5 class="head-chat text-dark ">FAQs</h5>
+          <span class="material-symbols-outlined iconser">
+            search
+          </span><hr>
+       
+          <div class="contact1  d-flex">
+            <span class="material-symbols-outlined  ">
+              how_to_reg
+              </span> <h5 class="head-para text-dark pt-1 "> Login & Registration</h5>
+       
+             
+            </div><hr>
+            <div class="contact1  d-flex">
+              <span class="material-symbols-outlined  ">
+                payments
+                </span> <h5 class="head-para text-dark pt-1 ">Payments</h5>
+         
+               
+              </div><hr>
+          
+              <div class="contact1  d-flex">
+                
+                 <h5 class="head-para text-dark pt-1 "> Show more categories</h5>
+           
+                 
+                </div>
+          
+          </div>
+        
+        </div>
+       
+       
+        </div>
+      </div>
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <script>
       const exam = document.getElementById("exampageid");
       const skill = document.getElementById("skillspageid");
-      const skillButton = document.getElementById("skillbt")  
-       
-       
+      const skillButton = document.getElementById("skillbt");
+      const downPop = document.getElementById("contpop");
+      const closePop = document.getElementById("closeid");
+
       skillButton.onclick = showskill;
 
-      function showskill(){
+      function showskill() {
         exam.style.display = "none";
         skill.style.display = "block";
-
+        downPop.style.display = "none";
       }
 
-       document.getElementById("exambt").addEventListener('click',skillhide)
-        
-    function skillhide(){
-      exam.style.display = "block";
-        skill.style.display = "none";
+      document.getElementById("exambt").addEventListener("click", skillhide);
 
-    }
-    
-    
-    
-    
-    
+      function skillhide() {
+        exam.style.display = "block";
+        skill.style.display = "none";
+        downPop.style.display = "none";
+      }
+
+      closeid.onclick = showpop;
+
+      function showpop() {
+        downPop.style.display = "block";
+      }
+
+      document
+        .getElementById("close-bt-pop")
+        .addEventListener("click", pophide);
+
+      function pophide() {
+        downPop.style.display = "none";
+      }
     </script>
 
-   
-
-
-
-
-
-
-
-
-<script
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
