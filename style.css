@@ -501,6 +501,11 @@ li{
   width: 190px;
 }
 
+.view-bt:hover{
+  border: solid 1px white;
+
+}
+
 .psc-img{
   width: 40px;
   height: 40px;
@@ -516,7 +521,7 @@ li{
   box-shadow: 1px 0px 8px rgb(222, 218, 218);
   margin-right: 50px;
   margin-bottom:20px;
-
+  
   
 }
 
@@ -649,3 +654,97 @@ height: 13px;
   background-color:rgb(236, 71, 212) ;
    color: white;
 }
+
+.modal-cont{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  border:solid 2px rgba(188, 190, 190, 0.858);
+  align-items: center;
+  padding: 10px;
+  height: 70px;
+}
+
+.modal-cont1:hover{
+  border:solid 2px rgba(49, 202, 202, 0.858);
+  background-color: rgb(217, 233, 233);
+
+}
+.modal-cont:hover{
+  border:solid 2px rgba(49, 202, 202, 0.858);
+  background-color: rgb(217, 233, 233);
+}
+
+.modal-cont1{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  border:solid 2px blue;
+  align-items: center;
+  padding: 10px;
+  height: 55px;
+  border:solid 2px rgba(188, 190, 190, 0.858);
+  cursor: text;
+  
+}
+
+
+.modal-year{
+  font-size: 15px;
+  
+  
+}
+
+.coupon-head{
+  font-size: 15px;
+  font-weight: bold;
+  color:orange ;
+
+}
+
+.bt-coupon{
+  background-color:rgba(152, 155, 155, 0.543) ;
+  padding: 5px;
+  font-size: 12px;
+  color:black;
+  border-radius: 20px;
+  width: 75px;
+  font-weight: bold;
+  border-width: 0px;
+}
+
+
+.bt-coupon:hover{
+    background-color: rgb(223, 67, 199);
+    border: solid 1px  rgb(223, 67, 199) ;
+    color: white;
+    
+}
+
+.modal-cont2{
+  display: flex;
+  justify-content: center;
+  /* border-radius: 10px; */
+   
+  align-items: center;
+background-color: rgb(77, 168, 224);
+  height: 55px;
+  
+  
+  
+}
+
+.bt-coupon1{
+ font-weight: bold;
+ font-size: 18px;
+  color: white;
+  border: none;
+  background-color: transparent;
+}
+
+
+.modal-cont2:hover{
+  background-color: rgb(216, 51, 197);
+}
+
+
