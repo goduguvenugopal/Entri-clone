@@ -447,7 +447,7 @@ top: 7px;
 }
 
 #premiumid{
-  display: none;
+  display: non;
 }
 
  .gold-nav-card{
@@ -748,3 +748,26 @@ background-color: rgb(77, 168, 224);
 }
 
 
+.skill-premium-card{
+  height: 100vh;
+  
+  
+}
+
+.top-seller-card{
+  background-color: white;
+  padding: 17px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 1px 0px 8px rgb(223, 217, 221);
+  /* height: 420px; */
+}
+
+.top-img{
+  border-radius: 20px;
+}
+
+.top-seller-card:hover{
+
+  box-shadow: 1px 0px 8px rgb(218, 36, 170);
+}
