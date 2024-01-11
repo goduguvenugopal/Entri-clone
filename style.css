@@ -446,8 +446,14 @@ top: 7px;
   
 }
 
+
+#preskillpageid{
+  display: none;
+}
+
+
 #premiumid{
-  display: non;
+  display: none;
 }
 
  .gold-nav-card{
@@ -749,22 +755,27 @@ background-color: rgb(77, 168, 224);
 
 
 .skill-premium-card{
-  height: 100vh;
+  height: 230vh;
+  
   
   
 }
 
 .top-seller-card{
   background-color: white;
-  padding: 17px;
+  padding: 13px;
   border-radius: 20px;
   cursor: pointer;
   box-shadow: 1px 0px 8px rgb(223, 217, 221);
-  /* height: 420px; */
+  width: 350px;
+  height: 370px;
+  padding-bottom:;
 }
 
 .top-img{
   border-radius: 20px;
+  /* height: 170px; */
+  /* width: 270px; */
 }
 
 .top-seller-card:hover{
