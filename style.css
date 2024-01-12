@@ -518,15 +518,17 @@ li{
 }
 
 .psc-main-card{
-  height: 205vh;
+  height: 180%;
+  margin-bottom: 20px;
 }
 .psc-sub-card1{
   background-color: white;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 1px 0px 8px rgb(222, 218, 218);
-  margin-right: 50px;
-  margin-bottom:20px;
+  /* margin-right: 50px; */
+  margin-right: 15px;
+  margin-bottom:30px;
   
   
 }
@@ -543,9 +545,9 @@ li{
   padding: 10px;
   border-radius: 10px;
   box-shadow: 1px 0px 8px rgb(222, 218, 218);
-   
-  margin-right: 50px;
-  margin-bottom:20px;
+  margin-right: 15px;
+  /* margin-right: 50px; */
+  margin-bottom:30px;
 }
 
 .psc-sub-card2:hover{
@@ -560,8 +562,9 @@ li{
   border-radius: 10px;
   box-shadow: 1px 0px 8px rgb(222, 218, 218);
   margin-right: 15px;
-  margin: px;
-  margin-bottom:20px;
+  /* margin: px; */
+  margin-bottom:30px;
+  
 }
 
 .psc-sub-card3:hover{
@@ -767,8 +770,8 @@ background-color: rgb(77, 168, 224);
   border-radius: 20px;
   cursor: pointer;
   box-shadow: 1px 0px 8px rgb(223, 217, 221);
-  width: 320px;
-  height: 350px;
+  width: 355px;
+  height: 375px;
   padding-bottom:;
 }
 

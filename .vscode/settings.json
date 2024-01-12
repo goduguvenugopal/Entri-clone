@@ -3,5 +3,6 @@
   "debug.hideLauncherWhileDebugging": false,
   "files.autoSave": "afterDelay",
   "accessibility.hideAccessibleView": false,
-  "json.schemas": []
+  "json.schemas": [],
+  "editor.formatOnSave": true
 }
