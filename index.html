@@ -143,7 +143,7 @@
     
     
       
-    <div class="container-fluid ">
+    <div class="container-fluid " id="btmnavid">
       <div class="row">
         <div class="colo-12">
           <div
@@ -823,12 +823,15 @@
     <!-- contact page completed here  -->
 
     <!-- premium page starts here  -->
-   <div class="" id="premiumid"> 
+   <div class="" id="premiumid"   onmousedown="return false"
+   onselectstart="return false"> 
     <div class="gold-nav-card container-fluid">
       <div class="row">
         <div class="col col-md-2 border-cont text-center" id="examsprebtid">
-          <h3 class="exam-gold-head">Exams</h3>
+          <h3 class="exam-gold-head" id="exbackbtn">Exams</h3>
+          <h3 class="exam-gold-head" id="backbtid">Back</h3>
         </div>
+        
 
         <div class="col col-md-2 border-cont text-center" id="skillsprebtid">
           <h3 class="exam-gold-head">Skills</h3>
@@ -838,7 +841,8 @@
 
     <!-- gold-card section -->
     
-    <div class="container bg-dark mt-4 gold-card">
+    <div class="container bg-dark mt-4 gold-card"   onmousedown="return false"
+    onselectstart="return false">
       <div class="row">
         <div class="col col-md-4">
           <div class="gold-list-cont">
@@ -2341,9 +2345,9 @@
       const sikkiprebt = document.getElementById("skillsprebtid");
       const groupsfunbt = document.getElementById("groupsbtnid");
       const groupsfunpage = document.getElementById("groupspageid");
-
-
-
+      const backfuncid = document.getElementById("backbtid");
+      const exbackfuncid = document.getElementById("exbackbtn");
+      const navbtmfuncid = document.getElementById("btmnavid");
 
 
       skillButton.onclick = showskill;
@@ -2355,6 +2359,7 @@
         premiumfunc.style.display = "none";
         goldskilpagefun.style.display = "none";
         groupsfunpage.style.display = "none";
+
       }
 
       document.getElementById("exambt").addEventListener("click", skillhide);
@@ -2405,6 +2410,10 @@
           goldskilpagefun.style.display = "block"
           gcoursepagefun.style.display = "none"
           groupsfunpage.style.display = "none";
+          navbtmfuncid.style.display = "none";
+          exbackfuncid.style.display = "none";
+          backfuncid.style.display = "block";
+          
          }
 
          document.getElementById("examsprebtid").addEventListener('click',hidegoldprebt);
@@ -2417,6 +2426,10 @@
           goldskilpagefun.style.display = "none"
           gcoursepagefun.style.display = "block"
           groupsfunpage.style.display = "none";
+          navbtmfuncid.style.display = "block";
+          
+          exbackfuncid.style.display = "block";
+          backfuncid.style.display = "none";
          }
 
    
