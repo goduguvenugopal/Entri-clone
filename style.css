@@ -18,8 +18,14 @@
     display: none;
   }
     
-   
+    
   
+   
+
+
+
+
+
    
 }
   @media screen and (max-width: 770px){
@@ -27,7 +33,9 @@
     display: none;
    }
  
-    
+   
+  
+   
 
 
 }
@@ -144,7 +152,11 @@
 
 .sidenav{
   padding-top: 8px;
-  
+   background-color:white;
+  /* padding-top: 15px; */
+  margin-left: 0px;
+  box-shadow: 01px 0px 4px rgb(176, 171, 171);
+   
   justify-content: space-around;
   display: flex;
    flex-direction: row;
@@ -495,6 +507,7 @@ li{
   display: flex;
   justify-content:center;
   align-items: center;
+  
 }
 
 .view-bt{
@@ -833,6 +846,7 @@ width: 100vw;
 .sideghead{
   font-size: 16px;
   margin-left: 9px;
+  padding-top: 1px;
 }
 
 .entrigroup:hover{
@@ -854,12 +868,16 @@ width: 100vw;
 }
 
 .small-group-card:hover{
-  border: solid 1px rgb(84, 157, 217);
+  box-shadow: 1px 2px 9px rgb(24, 136, 228) ;
 }
 
 
 .small-group-card{
   padding-left: 5px;
   padding-bottom: 5px;
-
+  
+  border-radius: 20px;
 }
+
+
+ 
