@@ -115,7 +115,7 @@
                       <h4 class="subscriptions">My Subscriptions</h4>
                     </div>
 
-                    <div class="icon-cont d-flex">
+                    <div class="icon-cont d-flex" >
                       <span class="material-symbols-outlined noticon">
                         sell
                       </span>
@@ -175,7 +175,7 @@
               <h4 class="sidehead d-block d-md-none">Doubts</h4>
               <h4 class="sidehead d-none d-md-block">Groups</h4>
             </div>
-            <div class="sections d-block d-md-none text-center">
+            <div class="sections d-block d-md-none text-center" id="morebtnid">
               <span class="material-symbols-outlined downicon">
                 page_control</span
               >
@@ -203,7 +203,7 @@
      
       <!-- exams page -->
 
-      <div class="container pb-5 d-none" id="exampageid">
+      <div class="container pb-5 " id="exampageid">
         <div class="row">
           <div class="col-12 pt-4 d-none d-md-block">
             <h4 class="good-head">Hey, Good Afternoon</h4>
@@ -826,15 +826,15 @@
         <!-- more page for small devices  -->
 
          
-       
-       <div class="mainproficard pb-3"> 
+       <div class=" d-md-none" id="smorepageid"> 
+       <div class="mainproficard pb-2 mb-3"> 
        <div class="container"> 
           <div class="proflex-card pb-3">
             <img
             src="https://cloudfront.entri.app/media/display_pictures/user_8235571/3968701907976145915-2208453354971277968-1699346659.7082772.jpeg"
             class="profi-img"
           />
-          <div class="pt-3"> 
+          <div class="pt-4"> 
           <h6 class="modal-title text-white " id="exampleModalLabel">
             Godugu venu Gopal <br />
              
@@ -842,10 +842,56 @@
           <p class="number text-white">+ 919059746913</p>
 
         </div>
-          <button class="viewprofibt">Edit Profile</button>
+          <button class="viewprofibt" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight1" aria-controls="offcanvasRight">Edit Profile</button>
+          
+        
+           <!-- offcanvas  -->
+           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight1" aria-labelledby="offcanvasRightLabel">
+             <div class="offcanvas-header off-canvas-main pb-1">
+               <h6 id="offcanvasRightLabel">Edit Profile</h6>
+               <h6 id="offcanvashead">Save</h6>
+               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+             </div>
+             <div class="offcanvas-body">
+               <div class="inputfieldcard text-center pt-4 mt-3">
+                <img
+            src="https://cloudfront.entri.app/media/display_pictures/user_8235571/3968701907976145915-2208453354971277968-1699346659.7082772.jpeg"
+            class="profile-img1 mb-3"
+          />
+          <span class="material-symbols-outlined" id="camera" onclick="openfile()">
+            photo_camera
+            </span> 
+          <div class="filecardpic"> 
+            <input type="file" value="file" id="file">
+           
+               </div>
+                <div class="inputbox-card text-start mt-3"> 
+                  <form> 
+              <label for="name" class="nastyle mt-3">Name</label><br>
+               <input type="text" value="" name="text" id="txt"><br>              
+              
+               <label for="tel" class="nastyle mt-3">Mobile Number</label><br>
+               <input type="number" value="" name="text" id="txt" required max="10"> <br>            
+              
+               <label for="name" class="nastyle mt-3">Email</label><br>
+               <input type="email" value="" name="text" id="txt">  <br>            
+              
+               
+                
+              </form>
+             
+            
+            </div>
+              
+              </div>
+             </div>
+           </div>
           </div>
-       
-          <div class="proflex-card1 px-3 pt-3">
+         
+         
+         
+         
+           <div class="proflex-card1 px-3 pt-3">
             <div class="wallet-card pl-5 d-flex"> 
             <span class="material-symbols-outlined " id="wallrupee1">
               account_balance_wallet
@@ -860,21 +906,86 @@
                
                  <p class=" wall-para text-white"><span class="material-symbols-outlined " id="wallrupee">
                   currency_rupee
-                  </span>1,92,99950</p>
+                  </span>1,92,99,950</p>
             </div>
           </div>
        
-       
-       
-       
-       
-       
-       
+            
        
         </div>
       </div>
       
 
+      <div class="icons-cuopo-card bg-white">
+        <div class="container"> 
+        <div class="icon-cont2 d-flex">
+          <span class="material-symbols-outlined noticon">
+            notifications
+          </span>
+          <h4 class="subscriptions">My Subscriptions</h4>
+        </div>
+<!-- div for trigger modal -->
+        <div class="icon-cont2 d-flex" type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <span class="material-symbols-outlined noticon">
+            sell
+          </span>
+
+          <h4 class="subscriptions">Coupon Code</h4>
+        </div>
+
+        <div class="icon-cont2 d-flex">
+          <span class="material-symbols-outlined noticon">
+            logout
+          </span>
+          <h4 class="subscriptions">Logout</h4>
+        </div>
+      </div>
+        
+ 
+ 
+    </div>
+ 
+
+  
+ 
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Coupon</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="cpncard col-12">
+           
+          <input type="text"  id="coupotxt" placeholder=" Enter coupon code">
+          <!-- <p class="mt-3" style="font-size:15px; font-weight:bold; color:rgb(169, 164, 164);">Enter coupon code</p> -->
+         
+           <button class="bt-coupon text-center" id="btncpn">APPLY</button>
+        
+        
+        </div>
+        
+        
+      
+         
+      
+        
+      
+        
+      </div>
+      <div class="modal-cont2 mt-3">
+          
+         
+        <button class="bt-coupon1">BUY NOW</button>
+     
+     
+     </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -884,12 +995,7 @@
 
 
 
-
-
-
-
-
-
+</div>
 
 
 
@@ -2370,44 +2476,7 @@
 </div>
   
    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-                        
-  
-  <script>
+ <script>
       const premiumbtnfunc = document.getElementById("premiumbtid");
       const premiumfunc = document.getElementById("premiumid");
       const exam = document.getElementById("exampageid");
@@ -2423,6 +2492,9 @@
       const backfuncid = document.getElementById("backbtid");
       const exbackfuncid = document.getElementById("exbackbtn");
       const navbtmfuncid = document.getElementById("btmnavid");
+      const morepagefunc = document.getElementById("smorepageid");
+      const morebtnfunc = document.getElementById("morebtnid");
+
 
 
       skillButton.onclick = showskill;
@@ -2434,7 +2506,7 @@
         premiumfunc.style.display = "none";
         goldskilpagefun.style.display = "none";
         groupsfunpage.style.display = "none";
-
+        morepagefunc.style.display = "none";
       }
 
       document.getElementById("exambt").addEventListener("click", skillhide);
@@ -2446,6 +2518,7 @@
         premiumfunc.style.display = "none";
         goldskilpagefun.style.display = "none"
         groupsfunpage.style.display = "none";
+        morepagefunc.style.display = "none";
       }
 
       closeid.onclick = showpop;
@@ -2473,6 +2546,7 @@
       premiumfunc.style.display = "block";
       goldskilpagefun.style.display = "none"
       groupsfunpage.style.display = "none";
+      morepagefunc.style.display = "none";
      }
    
      document.getElementById("skillsprebtid").addEventListener('click',hidegoldprepg);
@@ -2488,6 +2562,7 @@
           navbtmfuncid.style.display = "none";
           exbackfuncid.style.display = "none";
           backfuncid.style.display = "block";
+          morepagefunc.style.display = "none";
           
          }
 
@@ -2505,6 +2580,7 @@
           
           exbackfuncid.style.display = "block";
           backfuncid.style.display = "none";
+          morepagefunc.style.display = "none";
          }
 
    
@@ -2519,9 +2595,38 @@
         premiumfunc.style.display = "none";
         goldskilpagefun.style.display = "none"
         groupsfunpage.style.display = "block";
+        morepagefunc.style.display = "none";
       }
    
-   
+       
+          morebtnfunc.onclick = showmorefun;
+
+          function showmorefun(){
+            morepagefunc.style.display = "block";
+            groupsfunpage.style.display = "none";
+            exam.style.display = "none";
+        skill.style.display = "none";
+        downPop.style.display = "none";
+        premiumfunc.style.display = "none";
+        goldskilpagefun.style.display = "none"
+          
+      }
+
+
+
+
+       function openfile(){
+       const openfiy = document.getElementById("file");
+                openfiy.style.display = "block";
+                
+       }
+
+
+
+
+
+
+
    
     </script>
 
