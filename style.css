@@ -242,6 +242,7 @@
 
 #searchstyle{
   width: 330px;
+  margin-left: 10px;
   height: 40px;
   border-radius: 29px;
   border: 1px solid rgb(172, 168, 168);
@@ -266,9 +267,19 @@
   
 }
 
+.bank-card:hover{
+  box-shadow: 1px 0px 8px rgb(227, 57, 190);
+}
+
+#searchstyle:hover{
+
+  box-shadow: 1px 0px 8px rgb(22, 235, 93);
+
+}
+
 .iconser{
   position: relative;
-  left:295px;
+  left:304px;
   bottom: 30px;
 
   
@@ -890,3 +901,76 @@ width: 100vw;
     padding-bottom: 0px;
     margin-bottom: 4px;
  }
+
+
+ /* more style for small devices  */
+
+ .mainproficard{
+  background-color: rgb(73, 169, 210);
+  padding-top: 15px;
+ }
+
+ .proflex-card{
+  display: flex;
+   justify-content: space-around;
+   align-items: center;
+    
+ }
+ .proflex-card1{
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+    
+   
+ }
+
+.profi-img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+ .viewprofibt{
+  font-size: 12px;
+  font-weight: bold;
+  background-color:transparent;
+  width:100px;
+  height: 30px;
+  border-radius: 20px;
+  color: white;
+  border: solid 1px white;
+  
+
+ }
+
+
+ .viewprofibt:hover{
+  background-color:rgb(205, 47, 171);
+  box-shadow: 1px 0px 8px white;
+ }
+
+ #wallrupee{
+  
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  
+ }
+
+ #wallrupee1{
+  margin-left: px;
+  color: white;
+  font-size: 25px;
+ }
+.wall-head{
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+
+.wall-para{
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
