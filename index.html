@@ -675,11 +675,11 @@
             src="https://cloudfront.entri.app/media/display_pictures/user_8235571/3968701907976145915-2208453354971277968-1699346659.7082772.jpeg"
             class="profi-img" />
           <div class="pt-4">
-            <h6 class="modal-title text-white " id="exampleModalLabel">
-              Godugu venu Gopal <br />
+            <h6 class="modal-title text-white" id="exhead">Godugu Venu Gopal 
+               <br />
 
             </h6>
-            <p class="number text-white">+ 919059746913</p>
+            <p class="number text-white">9059746913</p>
 
           </div>
           <button class="viewprofibt" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight1"
@@ -690,7 +690,7 @@
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight1" aria-labelledby="offcanvasRightLabel">
             <div class="offcanvas-header off-canvas-main pb-1">
               <h6 id="offcanvasRightLabel">Edit Profile</h6>
-              <h6 id="offcanvashead">Save</h6>
+              
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                 aria-label="Close"></button>
             </div>
@@ -707,17 +707,17 @@
 
                 </div>
                 <div class="inputbox-card text-start mt-3">
-                  <form>
-                    <label for="name" class="nastyle mt-3">Name</label><br>
-                    <input type="text" value="" name="text" id="txt"><br>
+                  <form id="mainform"  autocomplete="on">
+                    <label for="text" class="nastyle mt-3">Name</label><br>
+                    <input type="text" value="" name="text" id="text" placeholder=" Enter Full Name" required max="15"><br>
 
                     <label for="tel" class="nastyle mt-3">Mobile Number</label><br>
-                    <input type="number" value="" name="text" id="txt" required max="10"> <br>
+                    <input type="number" value="" name="num" id="txt" required min="10" placeholder=" Enter mobile Number"> <br>
 
-                    <label for="name" class="nastyle mt-3">Email</label><br>
-                    <input type="email" value="" name="text" id="txt"> <br>
+                    <label for="txt" class="nastyle mt-3"   >Email</label><br>
+                    <input type="email" value="" name="mail" id="txt"  > <br>
 
-
+                    <input type="submit" value="save" class="mt-4 pb-1" id="offcanvashead" ></input>
 
                   </form>
 
@@ -1969,6 +1969,33 @@
               openfiy.style.display = "block";
 
             }
+
+             
+
+            const maimformfunc = document.getElementById("mainform");
+            const textformfunc = document.getElementById("text");
+            const headrefunc = document.getElementById("exhead");
+
+
+            maimformfunc.addEventListener("submit",function(x){
+              x.preventDefault()
+                
+              const myfunc = textformfunc.value
+                 
+              headrefunc.textContent = myfunc
+
+
+             })
+
+
+
+
+
+
+
+
+
+
 
             </script>
 
