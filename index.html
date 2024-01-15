@@ -1,134 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      rel="icon"
-      href="https://webapp.entri.app/static/media/entri_logo.070560667f4517788fb23d580d24d33a.svg"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
 
-    <title>Entri-clone</title>
-    <script src="venu.js"></script>
+<head>
+  <link rel="icon" href="https://webapp.entri.app/static/media/entri_logo.070560667f4517788fb23d580d24d33a.svg" />
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
-  </head>
-  <body class="bodystyle">
-    <!-- header  -->
+  <title>Entri-clone</title>
+  <script src="venu.js"></script>
 
-    <header>
-      <div class="cont-logo bg-white pt-2 container-fluid">
-        <div class="sub-cont pb-1">
-          <div class="d-flex">
-            <img
-              src="https://webapp.entri.app/static/media/entri_logo.070560667f4517788fb23d580d24d33a.svg"
-              class="logo-img"
-            />
-            <h3 class="head-cont">ENTRI</h3>
-          </div>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
 
-          <div class="icon-container">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              class="bi bi-fire fire-icon"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"
-              />
-              <sup class="zero">0</sup>
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              class="bi bi-wallet-fill wall-icon"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M1.5 2A1.5 1.5 0 0 0 0 3.5v2h6a.5.5 0 0 1 .5.5c0 .253.08.644.306.958.207.288.557.542 1.194.542.637 0 .987-.254 1.194-.542.226-.314.306-.705.306-.958a.5.5 0 0 1 .5-.5h6v-2A1.5 1.5 0 0 0 14.5 2z"
-              />
-              <path
-                d="M16 6.5h-5.551a2.678 2.678 0 0 1-.443 1.042C9.613 8.088 8.963 8.5 8 8.5c-.963 0-1.613-.412-2.006-.958A2.679 2.679 0 0 1 5.551 6.5H0v6A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5z"
-              />
-            </svg>
-          </div>
+<body class="bodystyle">
+  <!-- header  -->
 
-          <div class="modalcont">
-            <!-- Button trigger modal -->
-            <button
-              type="button"
-              id="promodal"
-              class="btn btn-primary"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              Hii, Venu Gopal<img
-                src="https://cloudfront.entri.app/media/display_pictures/user_8235571/3968701907976145915-2208453354971277968-1699346659.7082772.jpeg"
-                class="profile-img"
-              />
-            </button>
+  <header>
+    <div class="cont-logo bg-white pt-2 container-fluid">
+      <div class="sub-cont pb-1">
+        <div class="d-flex">
+          <img src="https://webapp.entri.app/static/media/entri_logo.070560667f4517788fb23d580d24d33a.svg"
+            class="logo-img" />
+          <h3 class="head-cont">ENTRI</h3>
+        </div>
 
-            <!-- Modal -->
+        <div class="icon-container">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-fire fire-icon" viewBox="0 0 16 16">
+            <path
+              d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15" />
+            <sup class="zero">0</sup>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-wallet-fill wall-icon"
+            viewBox="0 0 16 16">
+            <path
+              d="M1.5 2A1.5 1.5 0 0 0 0 3.5v2h6a.5.5 0 0 1 .5.5c0 .253.08.644.306.958.207.288.557.542 1.194.542.637 0 .987-.254 1.194-.542.226-.314.306-.705.306-.958a.5.5 0 0 1 .5-.5h6v-2A1.5 1.5 0 0 0 14.5 2z" />
+            <path
+              d="M16 6.5h-5.551a2.678 2.678 0 0 1-.443 1.042C9.613 8.088 8.963 8.5 8 8.5c-.963 0-1.613-.412-2.006-.958A2.679 2.679 0 0 1 5.551 6.5H0v6A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5z" />
+          </svg>
+        </div>
 
-            <div
-              class="modal fade ml-5 mt-5"
-              id="exampleModal"
-              id="mainmodal"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <img
-                      src="https://cloudfront.entri.app/media/display_pictures/user_8235571/3968701907976145915-2208453354971277968-1699346659.7082772.jpeg"
-                      class="profile-img2"
-                    />
-                    <h5 class="modal-title name-head" id="exampleModalLabel">
-                      Godugu venu Gopal <br />
-                      <span class="number">+ 919059746913</span>
-                    </h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
+        <div class="modalcont">
+          <!-- Button trigger modal -->
+          <button type="button" id="promodal" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            Hii, Venu Gopal<img
+              src="https://cloudfront.entri.app/media/display_pictures/user_8235571/3968701907976145915-2208453354971277968-1699346659.7082772.jpeg"
+              class="profile-img" />
+          </button>
+
+          <!-- Modal -->
+
+          <div class="modal fade ml-5 mt-5" id="exampleModal" id="mainmodal" tabindex="-1"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <img
+                    src="https://cloudfront.entri.app/media/display_pictures/user_8235571/3968701907976145915-2208453354971277968-1699346659.7082772.jpeg"
+                    class="profile-img2" />
+                  <h5 class="modal-title name-head" id="exampleModalLabel">
+                    Godugu venu Gopal <br />
+                    <span class="number">+ 919059746913</span>
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="icon-cont d-flex">
+                    <span class="material-symbols-outlined noticon">
+                      notifications
+                    </span>
+                    <h4 class="subscriptions">My Subscriptions</h4>
                   </div>
-                  <div class="modal-body">
-                    <div class="icon-cont d-flex">
-                      <span class="material-symbols-outlined noticon">
-                        notifications
-                      </span>
-                      <h4 class="subscriptions">My Subscriptions</h4>
-                    </div>
 
-                    <div class="icon-cont d-flex" >
-                      <span class="material-symbols-outlined noticon">
-                        sell
-                      </span>
+                  <div class="icon-cont d-flex">
+                    <span class="material-symbols-outlined noticon">
+                      sell
+                    </span>
 
-                      <h4 class="subscriptions">Coupon Code</h4>
-                    </div>
+                    <h4 class="subscriptions">Coupon Code</h4>
+                  </div>
 
-                    <div class="icon-cont d-flex">
-                      <span class="material-symbols-outlined noticon">
-                        logout
-                      </span>
-                      <h4 class="subscriptions">Logout</h4>
-                    </div>
+                  <div class="icon-cont d-flex">
+                    <span class="material-symbols-outlined noticon">
+                      logout
+                    </span>
+                    <h4 class="subscriptions">Logout</h4>
                   </div>
                 </div>
               </div>
@@ -136,447 +96,215 @@
           </div>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- header completed here  -->
-    
-    
-    <!-- bottom navbar starts here-->
-      
-    <div class="container-fluid " id="btmnavid">
-      <div class="row">
-        <div class="colo-12">
-          <div
-            class="sidenav fixed-bottom"
-            onmousedown="return false"
-            onselectstart="return false"
-          >
-            <div class="sections text-center" id="exambt">
-              <span class="material-symbols-outlined downicon">
-                assignment
-              </span>
-              <h4 class="sidehead">Exams</h4>
-            </div>
+  <!-- header completed here  -->
+<!-- bottom navbar starts here-->
 
-            <div class="sections text-center" id="skillbt">
-              <span class="material-symbols-outlined downicon">
-                developer_mode_tv</span
-              >
-              <h4 class="sidehead">Skills</h4>
-            </div>
-            <div class="sections text-center" id="premiumbtid">
-              <span class="material-symbols-outlined downicon">
-                workspace_premium</span
-              >
-              <h4 class="sidehead">Premium</h4>
-            </div>
-            <div class="sections text-center" id="groupsbtnid">
-              <span class="material-symbols-outlined downicon"> group </span>
-              <h4 class="sidehead d-block d-md-none">Doubts</h4>
-              <h4 class="sidehead d-none d-md-block">Groups</h4>
-            </div>
-            <div class="sections d-block d-md-none text-center" id="morebtnid">
-              <span class="material-symbols-outlined downicon">
-                page_control</span
-              >
-              <h4 class="sidehead">More</h4>
-            </div>
+  <div class="container-fluid " id="btmnavid">
+    <div class="row">
+      <div class="colo-12">
+        <div class="sidenav fixed-bottom" onmousedown="return false" onselectstart="return false">
+          <div class="sections text-center" id="exambt">
+            <span class="material-symbols-outlined downicon">
+              assignment
+            </span>
+            <h4 class="sidehead">Exams</h4>
+          </div>
 
-            <div class="sections d-none d-md-block text-center" id="closeid">
-              <span class="material-symbols-outlined downicon">
-                headset_mic</span
-              >
-              <h4 class="sidehead">Contact Us</h4>
-            </div>
+          <div class="sections text-center" id="skillbt">
+            <span class="material-symbols-outlined downicon">
+              developer_mode_tv</span>
+            <h4 class="sidehead">Skills</h4>
+          </div>
+          <div class="sections text-center" id="premiumbtid">
+            <span class="material-symbols-outlined downicon">
+              workspace_premium</span>
+            <h4 class="sidehead">Premium</h4>
+          </div>
+          <div class="sections text-center" id="groupsbtnid">
+            <span class="material-symbols-outlined downicon"> group </span>
+            <h4 class="sidehead d-block d-md-none">Doubts</h4>
+            <h4 class="sidehead d-none d-md-block">Groups</h4>
+          </div>
+          <div class="sections d-block d-md-none text-center" id="morebtnid">
+            <span class="material-symbols-outlined downicon">
+              page_control</span>
+            <h4 class="sidehead">More</h4>
+          </div>
+
+          <div class="sections d-none d-md-block text-center" id="closeid">
+            <span class="material-symbols-outlined downicon">
+              headset_mic</span>
+            <h4 class="sidehead">Contact Us</h4>
           </div>
         </div>
       </div>
-       </div>
+    </div>
+  </div>
 
-      <!-- bottom navbar completed -->
-     
-     
-     
-      
-         
-     
-     
-      <!-- exams page -->
+  <!-- bottom navbar completed -->
+<!-- exams page -->
+ <div class="container pb-5 " id="exampageid">
+    <div class="row">
+      <div class="col-12 pt-4 d-none d-md-block">
+        <h4 class="good-head">Hey, Good Afternoon</h4>
+        <p class="great-para">
+          Great things take time, you got this... Lets get going!
+        </p>
+      </div>
+      <div class="col-12">
+        <div class="readingbook-cont pb-3">
+          <img src="https://webapp.entri.app/static/media/cat_reading_book.1023553d621407adcfb4b0ca821c9fd4.svg"
+            class="mw-100 pb-4" />
 
-      <div class="container pb-5 " id="exampageid">
-        <div class="row">
-          <div class="col-12 pt-4 d-none d-md-block">
-            <h4 class="good-head">Hey, Good Afternoon</h4>
-            <p class="great-para">
-              Great things take time, you got this... Lets get going!
+          <div class="text-center" onmousedown="return false" onselectstart="return false">
+            <h4 class="good-head">Ready to prepare for an exam?</h4>
+            <p class="great-para1">
+              Crack competitive exams like state PSCs,Bank Exams.GATE & more
+              using Entri.
             </p>
           </div>
-          <div class="col-12">
-            <div class="readingbook-cont pb-3">
-              <img
-                src="https://webapp.entri.app/static/media/cat_reading_book.1023553d621407adcfb4b0ca821c9fd4.svg"
-                class="mw-100 pb-4"
-              />
 
-              <div
-                class="text-center"
-                onmousedown="return false"
-                onselectstart="return false"
-              >
-                <h4 class="good-head">Ready to prepare for an exam?</h4>
-                <p class="great-para1">
-                  Crack competitive exams like state PSCs,Bank Exams.GATE & more
-                  using Entri.
-                </p>
+          <button class="btn btn-primary mt-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight" id="btn-bt">
+            EXPLORE ALL EXAMS
+          </button>
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header pt-4">
+              <h3 id="offcanvasRightLabel">Select exam category</h3>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <input type="search" id="searchstyle" placeholder="   Search Courses" />
+              <span class="material-symbols-outlined iconser">
+                search
+              </span>
+
+              <div class="courses-card">
+                <div class="bank-card text-center">
+                  <img src="https://cloudfront.entri.app/media/tracks_category_icons/Banking-Exams.png"
+                    class="mw-100 bank-icon mb-2" />
+                  <h6 class="bank-head">Banking Exams</h6>
+                  <p class="bank-para mt-0">Regulatory Body Exa...</p>
+                </div>
+
+                <div class="bank-card text-center">
+                  <img
+                    src=" https://entri-app-files.s3.ap-south-1.amazonaws.com/static/android/track-categories/GATE-%26-Other-Technical-Exams.png"
+                    class="mw-100 bank-icon mb-2" />
+                  <h6 class="bank-head">Technical Exams</h6>
+                  <p class="bank-para mt-0">Civil Engineering Tec...</p>
+                </div>
               </div>
 
-              <button
-                class="btn btn-primary mt-1"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasRight"
-                aria-controls="offcanvasRight"
-                id="btn-bt"
-              >
-                EXPLORE ALL EXAMS
-              </button>
-
-              <div
-                class="offcanvas offcanvas-end"
-                tabindex="-1"
-                id="offcanvasRight"
-                aria-labelledby="offcanvasRightLabel"
-              >
-                <div class="offcanvas-header pt-4">
-                  <h3 id="offcanvasRightLabel">Select exam category</h3>
-                  <button
-                    type="button"
-                    class="btn-close text-reset"
-                    data-bs-dismiss="offcanvas"
-                    aria-label="Close"
-                  ></button>
+              <div class="courses-card">
+                <div class="bank-card text-center">
+                  <img
+                    src=" https://entri-app-files.s3.ap-south-1.amazonaws.com/static/android/track-categories/teaching-3.png"
+                    class="mw-100 bank-icon mb-2" />
+                  <h6 class="bank-head">Teaching Exams</h6>
+                  <p class="bank-para mt-0">TET & Cum DSC, PET...</p>
                 </div>
-                <div class="offcanvas-body">
-                  <input
-                    type="search"
-                    id="searchstyle"  
-                    placeholder="   Search Courses"
-                  />
-                  <span class="material-symbols-outlined iconser">
-                    search
-                  </span>
 
-                  <div class="courses-card">
-                    <div class="bank-card text-center">
-                      <img
-                        src="https://cloudfront.entri.app/media/tracks_category_icons/Banking-Exams.png"
-                        class="mw-100 bank-icon mb-2"
-                      />
-                      <h6 class="bank-head">Banking Exams</h6>
-                      <p class="bank-para mt-0">Regulatory Body Exa...</p>
-                    </div>
+                <div class="bank-card text-center">
+                  <img src=" https://cloudfront.entri.app/media/tracks_category_icons/Gate.png"
+                    class="mw-100 bank-icon mb-2" />
+                  <h6 class="bank-head">GATE & Exams</h6>
+                  <p class="bank-para mt-0">GATE - Electronics &..</p>
+                </div>
+              </div>
 
-                    <div class="bank-card text-center">
-                      <img
-                        src=" https://entri-app-files.s3.ap-south-1.amazonaws.com/static/android/track-categories/GATE-%26-Other-Technical-Exams.png"
-                        class="mw-100 bank-icon mb-2"
-                      />
-                      <h6 class="bank-head">Technical Exams</h6>
-                      <p class="bank-para mt-0">Civil Engineering Tec...</p>
-                    </div>
-                  </div>
+              <div class="courses-card">
+                <div class="bank-card text-center">
+                  <img
+                    src=" https://entri-app-files.s3.ap-south-1.amazonaws.com/static/android/track-categories/State-PSC-Exam.png"
+                    class="mw-100 bank-icon mb-2" />
+                  <h6 class="bank-head">State Exams</h6>
+                  <p class="bank-para mt-0">Telangana State PSC...</p>
+                </div>
 
-                  <div class="courses-card">
-                    <div class="bank-card text-center">
-                      <img
-                        src=" https://entri-app-files.s3.ap-south-1.amazonaws.com/static/android/track-categories/teaching-3.png"
-                        class="mw-100 bank-icon mb-2"
-                      />
-                      <h6 class="bank-head">Teaching Exams</h6>
-                      <p class="bank-para mt-0">TET & Cum DSC, PET...</p>
-                    </div>
-
-                    <div class="bank-card text-center">
-                      <img
-                        src=" https://cloudfront.entri.app/media/tracks_category_icons/Gate.png"
-                        class="mw-100 bank-icon mb-2"
-                      />
-                      <h6 class="bank-head">GATE & Exams</h6>
-                      <p class="bank-para mt-0">GATE - Electronics &..</p>
-                    </div>
-                  </div>
-
-                  <div class="courses-card">
-                    <div class="bank-card text-center">
-                      <img
-                        src=" https://entri-app-files.s3.ap-south-1.amazonaws.com/static/android/track-categories/State-PSC-Exam.png"
-                        class="mw-100 bank-icon mb-2"
-                      />
-                      <h6 class="bank-head">State Exams</h6>
-                      <p class="bank-para mt-0">Telangana State PSC...</p>
-                    </div>
-
-                    <div class="bank-card text-center">
-                      <img
-                        src=" https://cloudfront.entri.app/media/tracks_category_icons/Bank2C-SSC2C-Railways.png"
-                        class="mw-100 bank-icon mb-2"
-                      />
-                      <h6 class="bank-head">CET,SSC,RRB</h6>
-                      <p class="bank-para mt-0">Staff Selection Comm</p>
-                    </div>
-                  </div>
+                <div class="bank-card text-center">
+                  <img src=" https://cloudfront.entri.app/media/tracks_category_icons/Bank2C-SSC2C-Railways.png"
+                    class="mw-100 bank-icon mb-2" />
+                  <h6 class="bank-head">CET,SSC,RRB</h6>
+                  <p class="bank-para mt-0">Staff Selection Comm</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    
-    <!-- exam page completed -->
+    </div>
+  </div>
 
-    <!-- skills page starts here -->
+  <!-- exam page completed -->
 
-    <div class="" id="skillspageid">
-      <div class="container mt-4 pb-2 skills-cont">
-        <div class="row">
-          <div class="col-12 col-md-3 mb-3">
-            <h5 class="good-head pt-4 pb-2">My Courses</h5>
+  <!-- skills page starts here -->
 
-            <div class="card mr-3" style="width: 18rem">
-              <img
-                src=" https://cloudfront.entri.app/media/pack_thumbnails/2023/12/27/Full-Stack-Web-Development-002.png"
-                id="img-skill-card"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">
-                  Entri elevate - Full stack web Development telugu
-                </h5>
-                <p class="card-text">venu gopal</p>
-              </div>
-            </div>
-          </div>
+  <div class="" id="skillspageid">
+    <div class="container mt-4 pb-2 skills-cont">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <h5 class="good-head pt-4 pb-2">My Courses</h5>
 
-          <div class="col-12 mt-4">
-            <div class="bg-dark container topslide-card mt-3">
-              <h5 class="good-head-p pt-4 pb-2">
-                Top Selling Courses <span class="heartsymb">&hearts;</span>
+          <div class="card mr-3" style="width: 18rem">
+            <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2023/12/27/Full-Stack-Web-Development-002.png"
+              id="img-skill-card" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Entri elevate - Full stack web Development telugu
               </h5>
-              <div class="gallery-container pb-3">
-                <div class="photo">
-                  <img
-                    src="https://cloudfront.entri.app/media/pack_thumbnails/2023/04/27/Entri-Elevate-Full-Stack-Web-Development.jpg"
-                    class="img1"
-                    alt="Photo 1"
-                  />
-                  <h5 class="card-title">Entri elevate - Full stack web</h5>
-                  <p class="card-text">venu gopal</p>
-                </div>
-
-                <div class="photo">
-                  <img
-                    src="https://cloudfront.entri.app/media/pack_thumbnails/2023/10/02/Introduction-to-Data-Science-and-Machine-Learning-01_1.png "
-                    class="img1"
-                    alt="Photo 1"
-                  />
-                  <h5 class="card-title">Entri elevate - Full stack web</h5>
-                  <p class="card-text">venu gopal</p>
-                </div>
-
-                <div class="photo">
-                  <img
-                    src="https://cloudfront.entri.app/media/pack_thumbnails/2022/08/30/Awal-tho-Aanglam-01.png"
-                    class="img1"
-                    alt="Photo 2"
-                  />
-                  <h5 class="card-title">Entri elevate - Full stack web</h5>
-                  <p class="card-text">venu gopal</p>
-                </div>
-
-                <div class="photo">
-                  <img
-                    src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/03/31/python-programming-01.png"
-                    class="img1"
-                    alt="Photo 3"
-                  />
-
-                  <h5 class="card-title">Entri elevate - Full stack web</h5>
-                  <p class="card-text">venu gopal</p>
-                </div>
-
-                <div class="photo">
-                  <img
-                    src="https://cloudfront.entri.app/media/pack_thumbnails/2022/05/20/CAMPUS-TO-CORPORATE.png  "
-                    class="img1"
-                    alt="Photo 3"
-                  />
-
-                  <h5 class="card-title">Entri elevate - Full stack web</h5>
-                  <p class="card-text">venu gopal</p>
-                </div>
-              </div>
+              <p class="card-text">venu gopal</p>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- explore courses-card -->
-      <div class="container pt-4 skills-cont">
-        <div class="row">
-          <div class="col-12 webcard col-md-3 mb-4">
-            <h5 class="good-head pt-4 pb-2">Explore Courses</h5>
-            <div class="card" style="width: 18rem">
-              <img
-                src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/08/30/Awal-tho-Aanglam-01.png"
-                id="img-skill-card"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Awal tho Aanglam</h5>
+        <div class="col-12 mt-4">
+          <div class="bg-dark container topslide-card mt-3">
+            <h5 class="good-head-p pt-4 pb-2">
+              Top Selling Courses <span class="heartsymb">&hearts;</span>
+            </h5>
+            <div class="gallery-container pb-3">
+              <div class="photo">
+                <img
+                  src="https://cloudfront.entri.app/media/pack_thumbnails/2023/04/27/Entri-Elevate-Full-Stack-Web-Development.jpg"
+                  class="img1" alt="Photo 1" />
+                <h5 class="card-title">Entri elevate - Full stack web</h5>
                 <p class="card-text">venu gopal</p>
               </div>
-            </div>
-          </div>
 
-          <div class="col-12 col-md-3 webcard mr-2 mb-4">
-            <h5 class="good-head pt-4 pb-2">English Courses</h5>
-            <div class="card" style="width: 18rem">
-              <img
-                src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/03/31/14.jpg "
-                id="img-skill-card"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">English for Career Success</h5>
+              <div class="photo">
+                <img
+                  src="https://cloudfront.entri.app/media/pack_thumbnails/2023/10/02/Introduction-to-Data-Science-and-Machine-Learning-01_1.png "
+                  class="img1" alt="Photo 1" />
+                <h5 class="card-title">Entri elevate - Full stack web</h5>
                 <p class="card-text">venu gopal</p>
               </div>
-            </div>
-          </div>
 
-          <div class="col-12 col-md-4 mb-3">
-            <h5 class="good-head pt-4 pb-2">Spoken English Courses</h5>
-            <div class="card" style="width: 18rem">
-              <img
-                src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/08/30/Spoken-English-Gold-01.png "
-                id="img-skill-card"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Spoken English - Gold</h5>
+              <div class="photo">
+                <img src="https://cloudfront.entri.app/media/pack_thumbnails/2022/08/30/Awal-tho-Aanglam-01.png"
+                  class="img1" alt="Photo 2" />
+                <h5 class="card-title">Entri elevate - Full stack web</h5>
                 <p class="card-text">venu gopal</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <!-- coding courses card -->
+              <div class="photo">
+                <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/03/31/python-programming-01.png"
+                  class="img1" alt="Photo 3" />
 
-      <div class="container pt-4 skills-cont">
-        <div class="row">
-          <div class="col-12 webcard col-md-3 mb-4">
-            <h5 class="good-head pt-4 pb-2">Coding & Development</h5>
-            <div class="card" style="width: 18rem">
-              <img
-                src=" https://cloudfront.entri.app/media/pack_thumbnails/2023/12/27/Full-Stack-Web-Development-002.png "
-                id="img-skill-card"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">
-                  Entri elevate - Full stack web Development telugu
-                </h5>
+                <h5 class="card-title">Entri elevate - Full stack web</h5>
                 <p class="card-text">venu gopal</p>
               </div>
-            </div>
-          </div>
 
-          <div class="col-12 col-md-3 webcard mr-2 mb-4">
-            <h5 class="good-head pt-4 pb-2">C - Language Courses</h5>
-            <div class="card" style="width: 18rem">
-              <img
-                src=" https://cloudfront.entri.app/media/pack_thumbnails/2023/09/12/C-Language-For-Beginers-01_1.png  "
-                id="img-skill-card"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">C - Language for Career Success</h5>
-                <p class="card-text">venu gopal</p>
-              </div>
-            </div>
-          </div>
+              <div class="photo">
+                <img src="https://cloudfront.entri.app/media/pack_thumbnails/2022/05/20/CAMPUS-TO-CORPORATE.png  "
+                  class="img1" alt="Photo 3" />
 
-          <div class="col-12 col-md-4 mb-3">
-            <h5 class="good-head pt-4 pb-2">Phython Courses</h5>
-            <div class="card" style="width: 18rem">
-              <img
-                src="https://cloudfront.entri.app/media/pack_thumbnails/2022/03/31/python-programming-01.png "
-                id="img-skill-card"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Phython programming - Gold</h5>
-                <p class="card-text">venu gopal</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- other courses card -->
-
-      <div class="container pt-4 skills-cont-last">
-        <div class="row">
-          <div class="col-12 webcard col-md-3 mb-4">
-            <h5 class="good-head pt-4 pb-2">Engineering Upskilling</h5>
-            <div class="card" style="width: 18rem">
-              <img
-                src=" https://cloudfront.entri.app/media/pack_thumbnails/2023/03/30/Quantity-Surveying-01_1.png "
-                id="img-skill-card"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Quantity Surveying</h5>
-                <p class="card-text">venu gopal</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-3 webcard mr-2 mb-4">
-            <h5 class="good-head pt-4 pb-2">Office Productivity</h5>
-            <div class="card" style="width: 18rem">
-              <img
-                src="https://cloudfront.entri.app/media/pack_thumbnails/2023/09/07/ChatGPT-Essentials.png "
-                id="img-skill-card"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">ChatGPT Essentials</h5>
-                <p class="card-text">venu gopal</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 mb-3">
-            <h5 class="good-head pt-4 pb-2">Career Development</h5>
-            <div class="card" style="width: 18rem">
-              <img
-                src="https://cloudfront.entri.app/media/pack_thumbnails/2022/05/20/CAMPUS-TO-CORPORATE.png"
-                id="img-skill-card"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Campus to Corporate</h5>
+                <h5 class="card-title">Entri elevate - Full stack web</h5>
                 <p class="card-text">venu gopal</p>
               </div>
             </div>
@@ -585,347 +313,460 @@
       </div>
     </div>
 
-    <!-- skills page completed -->
-    <!-- groups page starts here  -->
-  
-  <div class="" id="groupspageid"> 
-  <div class="group-main-card d-none d-md-block pt-4">
-    <div class="container">
+    <!-- explore courses-card -->
+    <div class="container pt-4 skills-cont">
       <div class="row">
-        
-        <div class="col-12 col-md-3">
-          <h4 class="gro-head pt-3">Groups</h4>
-          
+        <div class="col-12 webcard col-md-3 mb-4">
+          <h5 class="good-head pt-4 pb-2">Explore Courses</h5>
+          <div class="card" style="width: 18rem">
+            <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/08/30/Awal-tho-Aanglam-01.png"
+              id="img-skill-card" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Awal tho Aanglam</h5>
+              <p class="card-text">venu gopal</p>
+            </div>
+          </div>
         </div>
-       </div>
-       <!-- second row in groups  -->
-       <div class="row pt-3">
-        
-        <div class="col">
-          <div class="group-sub-card mt-3">
+
+        <div class="col-12 col-md-3 webcard mr-2 mb-4">
+          <h5 class="good-head pt-4 pb-2">English Courses</h5>
+          <div class="card" style="width: 18rem">
+            <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/03/31/14.jpg " id="img-skill-card"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">English for Career Success</h5>
+              <p class="card-text">venu gopal</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-3">
+          <h5 class="good-head pt-4 pb-2">Spoken English Courses</h5>
+          <div class="card" style="width: 18rem">
+            <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/08/30/Spoken-English-Gold-01.png "
+              id="img-skill-card" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Spoken English - Gold</h5>
+              <p class="card-text">venu gopal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- coding courses card -->
+
+    <div class="container pt-4 skills-cont">
+      <div class="row">
+        <div class="col-12 webcard col-md-3 mb-4">
+          <h5 class="good-head pt-4 pb-2">Coding & Development</h5>
+          <div class="card" style="width: 18rem">
+            <img
+              src=" https://cloudfront.entri.app/media/pack_thumbnails/2023/12/27/Full-Stack-Web-Development-002.png "
+              id="img-skill-card" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Entri elevate - Full stack web Development telugu
+              </h5>
+              <p class="card-text">venu gopal</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 webcard mr-2 mb-4">
+          <h5 class="good-head pt-4 pb-2">C - Language Courses</h5>
+          <div class="card" style="width: 18rem">
+            <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2023/09/12/C-Language-For-Beginers-01_1.png  "
+              id="img-skill-card" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">C - Language for Career Success</h5>
+              <p class="card-text">venu gopal</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-3">
+          <h5 class="good-head pt-4 pb-2">Phython Courses</h5>
+          <div class="card" style="width: 18rem">
+            <img src="https://cloudfront.entri.app/media/pack_thumbnails/2022/03/31/python-programming-01.png "
+              id="img-skill-card" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Phython programming - Gold</h5>
+              <p class="card-text">venu gopal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- other courses card -->
+
+    <div class="container pt-4 skills-cont-last">
+      <div class="row">
+        <div class="col-12 webcard col-md-3 mb-4">
+          <h5 class="good-head pt-4 pb-2">Engineering Upskilling</h5>
+          <div class="card" style="width: 18rem">
+            <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2023/03/30/Quantity-Surveying-01_1.png "
+              id="img-skill-card" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Quantity Surveying</h5>
+              <p class="card-text">venu gopal</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 webcard mr-2 mb-4">
+          <h5 class="good-head pt-4 pb-2">Office Productivity</h5>
+          <div class="card" style="width: 18rem">
+            <img src="https://cloudfront.entri.app/media/pack_thumbnails/2023/09/07/ChatGPT-Essentials.png "
+              id="img-skill-card" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">ChatGPT Essentials</h5>
+              <p class="card-text">venu gopal</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 mb-3">
+          <h5 class="good-head pt-4 pb-2">Career Development</h5>
+          <div class="card" style="width: 18rem">
+            <img src="https://cloudfront.entri.app/media/pack_thumbnails/2022/05/20/CAMPUS-TO-CORPORATE.png"
+              id="img-skill-card" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Campus to Corporate</h5>
+              <p class="card-text">venu gopal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- skills page completed -->
+  <!-- groups page starts here  -->
+
+  <div class="" id="groupspageid">
+    <div class="group-main-card d-none d-md-block pt-4">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-12 col-md-3">
+            <h4 class="gro-head pt-3">Groups</h4>
+
+          </div>
+        </div>
+        <!-- second row in groups  -->
+        <div class="row pt-3">
+
+          <div class="col">
+            <div class="group-sub-card mt-3">
               <div class="entrigroup  py-5">
-              <abbr class="more-ver-icon " title="My Activity"><span class="material-symbols-outlined ">
-                more_vert
-                </span></abbr>   
+                <abbr class="more-ver-icon " title="My Activity"><span class="material-symbols-outlined ">
+                    more_vert
+                  </span></abbr>
 
                 <img src="https://gamification.entri.app/media/club_icons/Web-Development_ZGQM0ak" class="group-img">
-                   <div class="text-center pb-1 pt-3">
-                    <h5 class="gro-devop ">Entri Elevate - Full Stack Web Development</h5>
-                   </div>
-             
-                   <div class="sections pb-3 d-flex">
-                    <span class="material-symbols-outlined downicon "> group </span>
-                    <h4 class="sideghead mt-1">9.1k</h4>
-                   
-                  </div>
-             
-                  </div>
+                <div class="text-center pb-1 pt-3">
+                  <h5 class="gro-devop ">Entri Elevate - Full Stack Web Development</h5>
+                </div>
+
+                <div class="sections pb-3 d-flex">
+                  <span class="material-symbols-outlined downicon "> group </span>
+                  <h4 class="sideghead mt-1">9.1k</h4>
+
+                </div>
+
+              </div>
               <div>
 
               </div>
               <div>
-                
+
               </div>
+            </div>
+
+
           </div>
-         
-          
-        </div>
-            
 
-        <div class="col">
-          <div class="group-sub-card mt-3">
+
+          <div class="col">
+            <div class="group-sub-card mt-3">
               <div class="entrigroup  py-5">
-              <abbr class="more-ver-icon " title="My Activity"><span class="material-symbols-outlined ">
-                more_vert
-                </span></abbr>   
+                <abbr class="more-ver-icon " title="My Activity"><span class="material-symbols-outlined ">
+                    more_vert
+                  </span></abbr>
 
                 <img src=" https://gamification.entri.app/media/club_icons/awal_7qu7B0c" class="group-img">
-                   <div class="text-center pb-1 pt-3">
-                    <h5 class="gro-devop ">Spoken English Courses in Telugu Career</h5>
-                   </div>
-             
-                   <div class="sections pb-3 d-flex">
-                    <span class="material-symbols-outlined downicon "> group </span>
-                    <h4 class="sideghead mt-1">9.6k</h4>
-                   
-                  </div>
-             
-                  </div>
+                <div class="text-center pb-1 pt-3">
+                  <h5 class="gro-devop ">Spoken English Courses in Telugu Career</h5>
+                </div>
+
+                <div class="sections pb-3 d-flex">
+                  <span class="material-symbols-outlined downicon "> group </span>
+                  <h4 class="sideghead mt-1">9.6k</h4>
+
+                </div>
+
+              </div>
               <div>
 
               </div>
               <div>
-                
+
               </div>
+            </div>
+
+
           </div>
-         
-          
-        </div>
-      
-         
-        <div class="col">
-          <div class="group-sub-card mt-3">
+
+
+          <div class="col">
+            <div class="group-sub-card mt-3">
               <div class="entrigroup  py-5">
-              <abbr class="more-ver-icon " title="My Activity"><span class="material-symbols-outlined ">
-                more_vert
-                </span></abbr>   
+                <abbr class="more-ver-icon " title="My Activity"><span class="material-symbols-outlined ">
+                    more_vert
+                  </span></abbr>
 
-                <img src=" https://gamification.entri.app/media/club_icons/Python-Programming-track_BV4XTS1" class="group-img">
-                   <div class="text-center pb-1 pt-3">
-                    <h5 class="gro-devop ">Phython - Full Stack Web Development</h5>
-                   </div>
-             
-                   <div class="sections pb-3 d-flex">
-                    <span class="material-symbols-outlined downicon "> group </span>
-                    <h4 class="sideghead mt-1">8.1k</h4>
-                   
-                  </div>
-             
-                  </div>
+                <img src=" https://gamification.entri.app/media/club_icons/Python-Programming-track_BV4XTS1"
+                  class="group-img">
+                <div class="text-center pb-1 pt-3">
+                  <h5 class="gro-devop ">Phython - Full Stack Web Development</h5>
+                </div>
+
+                <div class="sections pb-3 d-flex">
+                  <span class="material-symbols-outlined downicon "> group </span>
+                  <h4 class="sideghead mt-1">8.1k</h4>
+
+                </div>
+
+              </div>
               <div>
 
               </div>
               <div>
-                
+
               </div>
+            </div>
+
+
           </div>
-         
-          
+
+
+
         </div>
-      
-      
-      
-      </div>
-    
-    
-      </div>
-  </div>
 
-     <!-- groups page for small devices  -->
 
-   <div class="container-fluid d-block d-md-none" onmousedown="return false"
-   onselectstart="return false">
-    <div class="small-group-card mt-2 pt-3 d-flex ">
-      <div class="forimg "> 
-      <img src="https://gamification.entri.app/media/club_icons/Web-Development_ZGQM0ak" class="group-img1">
+      </div>
     </div>
-      <div class="  pb-1 ">
-       <h5 class="gro-devop " style="font-size: 15px;">Entri Elevate - Full Stack Web Development</h5>
-      
-       <div class="sections pl-3  d-flex" >
-        <span class="material-symbols-outlined downicon "style="font-size: 19px;" > group </span>
-        <h4 class="sideghead" style="font-size: 15px;">9.1k</h4>
-       
-      </div>
-      </div>
 
-   
-    </div>
-   
-    <div class="small-group-card pt-3 d-flex ">
-      <div class="forimg "> 
-      <img src=" https://gamification.entri.app/media/club_icons/awal_7qu7B0c" class="group-img1">
-    </div>
-      <div class="  pb-1 ">
-       <h5 class="gro-devop " style="font-size: 15px;"> Spoken English Courses in Telugu Career</h5>
-      
-       <div class="sections pl-3  d-flex" >
-        <span class="material-symbols-outlined downicon "style="font-size: 19px;" > group </span>
-        <h4 class="sideghead mt-" style="font-size: 15px;">5.1M</h4>
-       
-      </div>
-      </div>
+    <!-- groups page for small devices  -->
 
-   
-    </div>
-  
-  
-    <div class="small-group-card pt-3 d-flex ">
-      <div class="forimg "> 
-      <img src=" https://gamification.entri.app/media/club_icons/Python-Programming-track_BV4XTS1" class="group-img1">
-    </div>
-      <div class="  pb-1 ">
-       <h5 class="gro-devop " style="font-size: 15px;">  Phython - Full Stack Web Development</h5>
-      
-       <div class="sections pl-3  d-flex" >
-        <span class="material-symbols-outlined downicon "style="font-size: 19px;" > group </span>
-        <h4 class="sideghead mt-" style="font-size: 15px;">2.1M</h4>
-       
-      </div>
-      </div>
+    <div class="container-fluid d-block d-md-none" onmousedown="return false" onselectstart="return false">
+      <div class="small-group-card mt-2 pt-3 d-flex ">
+        <div class="forimg ">
+          <img src="https://gamification.entri.app/media/club_icons/Web-Development_ZGQM0ak" class="group-img1">
+        </div>
+        <div class="  pb-1 ">
+          <h5 class="gro-devop " style="font-size: 15px;">Entri Elevate - Full Stack Web Development</h5>
 
-   
-    </div>
-  
-  
-  
-  
-  
-  </div>
+          <div class="sections pl-3  d-flex">
+            <span class="material-symbols-outlined downicon " style="font-size: 19px;"> group </span>
+            <h4 class="sideghead" style="font-size: 15px;">9.1k</h4>
+
+          </div>
+        </div>
 
 
+      </div>
+
+      <div class="small-group-card pt-3 d-flex ">
+        <div class="forimg ">
+          <img src=" https://gamification.entri.app/media/club_icons/awal_7qu7B0c" class="group-img1">
+        </div>
+        <div class="  pb-1 ">
+          <h5 class="gro-devop " style="font-size: 15px;"> Spoken English Courses in Telugu Career</h5>
+
+          <div class="sections pl-3  d-flex">
+            <span class="material-symbols-outlined downicon " style="font-size: 19px;"> group </span>
+            <h4 class="sideghead mt-" style="font-size: 15px;">5.1M</h4>
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <div class="small-group-card pt-3 d-flex ">
+        <div class="forimg ">
+          <img src=" https://gamification.entri.app/media/club_icons/Python-Programming-track_BV4XTS1"
+            class="group-img1">
+        </div>
+        <div class="  pb-1 ">
+          <h5 class="gro-devop " style="font-size: 15px;"> Phython - Full Stack Web Development</h5>
+
+          <div class="sections pl-3  d-flex">
+            <span class="material-symbols-outlined downicon " style="font-size: 19px;"> group </span>
+            <h4 class="sideghead mt-" style="font-size: 15px;">2.1M</h4>
+
+          </div>
+        </div>
 </div>
 
-
-
-
-
-
-    <!-- contacts page starts here  -->
-
-    <div class="container-fluid conty-pop pt-3 mt-2" id="contpop">
-      <div class="row">
-        <div class="col-12">
-          <div class="contact-cont">
-            <div class="contact-card1">
-              <div class="d-flex">
-                <img
-                  src="https://webapp.entri.app/static/media/entri_logo.070560667f4517788fb23d580d24d33a.svg"
-                  class="logo-img"
-                />
-                <h3 class="head-cont">ENTRI</h3>
-              </div>
-              <div class="" id="close-bt-pop">
-                <span class="material-symbols-outlined mt-1"> close </span>
-              </div>
+</div>
+ </div>
+ <!-- contacts page starts here  -->
+<div class="container-fluid conty-pop pt-3 mt-2" id="contpop">
+    <div class="row">
+      <div class="col-12">
+        <div class="contact-cont">
+          <div class="contact-card1">
+            <div class="d-flex">
+              <img src="https://webapp.entri.app/static/media/entri_logo.070560667f4517788fb23d580d24d33a.svg"
+                class="logo-img" />
+              <h3 class="head-cont">ENTRI</h3>
             </div>
-
-            <div class="contact-us">
-              <h5 class="head-chat text-dark">Contact Us</h5>
-              <hr />
-              <h5 class="head-para text-dark">Entri chat support</h5>
+            <div class="" id="close-bt-pop">
+              <span class="material-symbols-outlined mt-1"> close </span>
             </div>
+          </div>
 
-            <div class="contact-us mt-4">
-              <h5 class="head-chat text-dark">FAQs</h5>
-              <span class="material-symbols-outlined iconser"> search </span>
-              <hr />
+          <div class="contact-us">
+            <h5 class="head-chat text-dark">Contact Us</h5>
+            <hr />
+            <h5 class="head-para text-dark">Entri chat support</h5>
+          </div>
 
-              <div class="contact1 d-flex">
-                <span class="material-symbols-outlined"> how_to_reg </span>
-                <h5 class="head-para text-dark pt-1">Login & Registration</h5>
-              </div>
-              <hr />
-              <div class="contact1 d-flex">
-                <span class="material-symbols-outlined"> payments </span>
-                <h5 class="head-para text-dark pt-1">Payments</h5>
-              </div>
-              <hr />
+          <div class="contact-us mt-4">
+            <h5 class="head-chat text-dark">FAQs</h5>
+            <span class="material-symbols-outlined iconser"> search </span>
+            <hr />
 
-              <div class="contact1 d-flex">
-                <h5 class="head-para text-dark pt-1">Show more categories</h5>
-              </div>
+            <div class="contact1 d-flex">
+              <span class="material-symbols-outlined"> how_to_reg </span>
+              <h5 class="head-para text-dark pt-1">Login & Registration</h5>
+            </div>
+            <hr />
+            <div class="contact1 d-flex">
+              <span class="material-symbols-outlined"> payments </span>
+              <h5 class="head-para text-dark pt-1">Payments</h5>
+            </div>
+            <hr />
+
+            <div class="contact1 d-flex">
+              <h5 class="head-para text-dark pt-1">Show more categories</h5>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- contact page completed here  -->
+  <!-- contact page completed here  -->
 
-        <!-- more page for small devices  -->
+  <!-- more page for small devices  -->
 
-         
-       <div class=" d-md-none" id="smorepageid"> 
-       <div class="mainproficard pb-2 mb-3"> 
-       <div class="container"> 
-          <div class="proflex-card pb-3">
-            <img
+
+  <div class=" d-md-none" id="smorepageid">
+    <div class="mainproficard pb-2 mb-3">
+      <div class="container">
+        <div class="proflex-card pb-3">
+          <img
             src="https://cloudfront.entri.app/media/display_pictures/user_8235571/3968701907976145915-2208453354971277968-1699346659.7082772.jpeg"
-            class="profi-img"
-          />
-          <div class="pt-4"> 
-          <h6 class="modal-title text-white " id="exampleModalLabel">
-            Godugu venu Gopal <br />
-             
-          </h6>
-          <p class="number text-white">+ 919059746913</p>
+            class="profi-img" />
+          <div class="pt-4">
+            <h6 class="modal-title text-white " id="exampleModalLabel">
+              Godugu venu Gopal <br />
 
-        </div>
-          <button class="viewprofibt" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight1" aria-controls="offcanvasRight">Edit Profile</button>
-          
-        
-           <!-- offcanvas  -->
-           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight1" aria-labelledby="offcanvasRightLabel">
-             <div class="offcanvas-header off-canvas-main pb-1">
-               <h6 id="offcanvasRightLabel">Edit Profile</h6>
-               <h6 id="offcanvashead">Save</h6>
-               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-             </div>
-             <div class="offcanvas-body">
-               <div class="inputfieldcard text-center pt-4 mt-3">
-                <img
-            src="https://cloudfront.entri.app/media/display_pictures/user_8235571/3968701907976145915-2208453354971277968-1699346659.7082772.jpeg"
-            class="profile-img1 mb-3"
-          />
-          <span class="material-symbols-outlined" id="camera" onclick="openfile()">
-            photo_camera
-            </span> 
-          <div class="filecardpic"> 
-            <input type="file" value="file" id="file">
-           
-               </div>
-                <div class="inputbox-card text-start mt-3"> 
-                  <form> 
-              <label for="name" class="nastyle mt-3">Name</label><br>
-               <input type="text" value="" name="text" id="txt"><br>              
-              
-               <label for="tel" class="nastyle mt-3">Mobile Number</label><br>
-               <input type="number" value="" name="text" id="txt" required max="10"> <br>            
-              
-               <label for="name" class="nastyle mt-3">Email</label><br>
-               <input type="email" value="" name="text" id="txt">  <br>            
-              
-               
-                
-              </form>
-             
-            
-            </div>
-              
-              </div>
-             </div>
-           </div>
+            </h6>
+            <p class="number text-white">+ 919059746913</p>
+
           </div>
-         
-         
-         
-         
-           <div class="proflex-card1 px-3 pt-3">
-            <div class="wallet-card pl-5 d-flex"> 
+          <button class="viewprofibt" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight1"
+            aria-controls="offcanvasRight">Edit Profile</button>
+
+
+          <!-- offcanvas  -->
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight1" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header off-canvas-main pb-1">
+              <h6 id="offcanvasRightLabel">Edit Profile</h6>
+              <h6 id="offcanvashead">Save</h6>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="inputfieldcard text-center pt-4 mt-3">
+                <img
+                  src="https://cloudfront.entri.app/media/display_pictures/user_8235571/3968701907976145915-2208453354971277968-1699346659.7082772.jpeg"
+                  class="profile-img1 mb-3" />
+                <span class="material-symbols-outlined" id="camera" onclick="openfile()">
+                  photo_camera
+                </span>
+                <div class="filecardpic">
+                  <input type="file" value="file" id="file">
+
+                </div>
+                <div class="inputbox-card text-start mt-3">
+                  <form>
+                    <label for="name" class="nastyle mt-3">Name</label><br>
+                    <input type="text" value="" name="text" id="txt"><br>
+
+                    <label for="tel" class="nastyle mt-3">Mobile Number</label><br>
+                    <input type="number" value="" name="text" id="txt" required max="10"> <br>
+
+                    <label for="name" class="nastyle mt-3">Email</label><br>
+                    <input type="email" value="" name="text" id="txt"> <br>
+
+
+
+                  </form>
+
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="proflex-card1 px-3 pt-3">
+          <div class="wallet-card pl-5 d-flex">
             <span class="material-symbols-outlined " id="wallrupee1">
               account_balance_wallet
-              </span>
-              <p class=" wall-head text-white">
+            </span>
+            <p class=" wall-head text-white">
               Wallet Balance
-              </p>
-           
-            </div>
-            <div class="pb-3">
-              
-               
-                 <p class=" wall-para text-white"><span class="material-symbols-outlined " id="wallrupee">
-                  currency_rupee
-                  </span>1,92,99,950</p>
-            </div>
-          </div>
-       
-            
-       
-        </div>
-      </div>
-      
+            </p>
 
-      <div class="icons-cuopo-card bg-white">
-        <div class="container"> 
+          </div>
+          <div class="pb-3">
+
+
+            <p class=" wall-para text-white"><span class="material-symbols-outlined " id="wallrupee">
+                currency_rupee
+              </span>1,92,99,950</p>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+    <div class="icons-cuopo-card bg-white">
+      <div class="container">
         <div class="icon-cont2 d-flex">
           <span class="material-symbols-outlined noticon">
             notifications
           </span>
           <h4 class="subscriptions">My Subscriptions</h4>
         </div>
-<!-- div for trigger modal -->
-        <div class="icon-cont2 d-flex" type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <!-- div for trigger modal -->
+        <div class="icon-cont2 d-flex" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
           <span class="material-symbols-outlined noticon">
             sell
           </span>
@@ -940,79 +781,45 @@
           <h4 class="subscriptions">Logout</h4>
         </div>
       </div>
-        
- 
- 
-    </div>
- 
-
-  
- 
-
+ </div>
 <!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Coupon</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="cpncard col-12">
-           
-          <input type="text"  id="coupotxt" placeholder=" Enter coupon code">
-          <!-- <p class="mt-3" style="font-size:15px; font-weight:bold; color:rgb(169, 164, 164);">Enter coupon code</p> -->
-         
-           <button class="bt-coupon text-center" id="btncpn">APPLY</button>
-        
-        
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Coupon</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="cpncard col-12">
+
+              <input type="text" id="coupotxt" placeholder=" Enter coupon code">
+              <!-- <p class="mt-3" style="font-size:15px; font-weight:bold; color:rgb(169, 164, 164);">Enter coupon code</p> -->
+
+              <button class="bt-coupon text-center" id="btncpn">APPLY</button>
+            </div>
+          </div>
+          <div class="modal-cont2 mt-3">
+
+
+            <button class="bt-coupon1">BUY NOW</button>
+
+
+          </div>
         </div>
-        
-        
-      
-         
-      
-        
-      
-        
       </div>
-      <div class="modal-cont2 mt-3">
-          
-         
-        <button class="bt-coupon1">BUY NOW</button>
-     
-     
-     </div>
     </div>
   </div>
-</div>
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-    <!-- premium page starts here  -->
-   <div class="" id="premiumid"   onmousedown="return false"
-   onselectstart="return false"> 
+ <!-- premium page starts here  -->
+  <div class="" id="premiumid" onmousedown="return false" onselectstart="return false">
     <div class="gold-nav-card container-fluid">
       <div class="row">
         <div class="col col-md-2 border-cont text-center" id="examsprebtid">
           <h3 class="exam-gold-head" id="exbackbtn">Exams</h3>
           <h3 class="exam-gold-head" id="backbtid">Back</h3>
         </div>
-        
+
 
         <div class="col col-md-2 border-cont text-center" id="skillsprebtid">
           <h3 class="exam-gold-head">Skills</h3>
@@ -1021,9 +828,8 @@
     </div>
 
     <!-- gold-card section -->
-    
-    <div class="container bg-dark mt-4 gold-card"   onmousedown="return false"
-    onselectstart="return false">
+
+    <div class="container bg-dark mt-4 gold-card" onmousedown="return false" onselectstart="return false">
       <div class="row">
         <div class="col col-md-4">
           <div class="gold-list-cont">
@@ -1044,10 +850,8 @@
 
         <div class="col col-md-4">
           <div class="gold-list-cont text-center pt-4">
-            <img
-              src="https://webapp.entri.app/static/media/entri_gold_banner_logo.a49e327eaf5ec966cfff52dec87c7883.svg"
-              class="e-gold-img mt-2"
-            />
+            <img src="https://webapp.entri.app/static/media/entri_gold_banner_logo.a49e327eaf5ec966cfff52dec87c7883.svg"
+              class="e-gold-img mt-2" />
           </div>
         </div>
 
@@ -1064,527 +868,367 @@
     </div>
 
     <!-- gold-courses-section-strats -->
-  
-    <div class="container mt-4 psc-main-card " id="goldcoursepageid" >
+
+    <div class="container mt-4 psc-main-card " id="goldcoursepageid">
       <div class="row">
         <div class="col-12 col-md-4">
-          <div class="psc-sub-card1"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">PSC + RRB </h>
-            <img
-              src="https://cloudfront.entri.app/static/android/product_packages/icon_images/combo+1.png"
-              class="psc-img"
-            />
-          </div>
+          <div class="psc-sub-card1">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">PSC + RRB </h>
+              <img src="https://cloudfront.entri.app/static/android/product_packages/icon_images/combo+1.png"
+                class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Available for<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >2499 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >10000</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>10000</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button  class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
-         
-         
-            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h6 class="modal-title " style="font-size: 18px;margin-left:10px;" id="exampleModalToggleLabel">Available Plans</h6>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body m-2" >
-                     <div class="modal-cont px-3 mb-4">
-                      <h class="modal-year"style="font-size:15px; font-weight:bold;" >1 YEAR</h>
-                      <p class="para-psc text-dark mt-3">
-                        <del class="under-line-style">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            class="bi bi-currency-rupee currency-icon mb-1"
-                            viewBox="0 0 16 16"
-                          >
-                            <path
-                              d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                            /></svg
-                          >2499 </del
-                        ><span class="cur-ru2"
-                          ><svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="16"
-                            height="16"
-                            fill="currentColor"
-                            class="bi bi-currency-rupee currency-rupee2"
-                            viewBox="0 0 16 16"
-                          >
-                            <path
-                              d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                            /></svg
-                          >10000</span
-                        >
-                      </p>
-                     </div>
-                          <h class="coupon-head">I have a coupon code </h>
-                       
-                     <div class="modal-cont1 px-3 mt-3">
-                      
-                      <p class="mt-3" style="font-size:15px; font-weight:bold; color:rgb(169, 164, 164);">Enter coupon code</p>
-                     
-                       <button class="bt-coupon">APPLY</button>
-                    
-                    
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+
+
+              <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h6 class="modal-title " style="font-size: 18px;margin-left:10px;" id="exampleModalToggleLabel">
+                        Available Plans</h6>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    
-                    
-                  
-                     
-                  
+                    <div class="modal-body m-2">
+                      <div class="modal-cont px-3 mb-4">
+                        <h class="modal-year" style="font-size:15px; font-weight:bold;">1 YEAR</h>
+                        <p class="para-psc text-dark mt-3">
+                          <del class="under-line-style">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                              class="bi bi-currency-rupee currency-icon mb-1" viewBox="0 0 16 16">
+                              <path
+                                d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                            </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                              height="16" fill="currentColor" class="bi bi-currency-rupee currency-rupee2"
+                              viewBox="0 0 16 16">
+                              <path
+                                d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                            </svg>10000</span>
+                        </p>
+                      </div>
+                      <h class="coupon-head">I have a coupon code </h>
+
+                      <div class="modal-cont1 px-3 mt-3">
+
+                        <p class="mt-3" style="font-size:15px; font-weight:bold; color:rgb(169, 164, 164);">Enter coupon
+                          code</p>
+
+                        <button class="bt-coupon">APPLY</button>
+                         </div>
+
+
+
+
+
                     </div>
-                  
+
                     <div class="modal-cont2 mt-3">
-                      
-                     
+
+
                       <button class="bt-coupon1">BUY NOW</button>
-                   
-                   
-                   </div>
+
+
+                    </div>
                     <div class="modal-footer d-none">
-                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
+                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                        data-bs-dismiss="modal">Open second modal</button>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalToggleLabel2"> </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    Hide this modal and show the first with the button below.
-                  </div>
-                  <div class="modal-footer">
-                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+              <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalToggleLabel2"> </h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Hide this modal and show the first with the button below.
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
+                        data-bs-dismiss="modal">Back to first</button>
+                    </div>
                   </div>
                 </div>
               </div>
+
             </div>
-         
-          </div>
           </div>
         </div>
 
         <div class="col-12 col-md-4  ">
-          <div class="psc-sub-card2"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">Tamil nadu Exams</h>
-            <img
-              src="https://cloudfront.entri.app/media/track_icons/tamilnadu.png "
-              class="psc-img "
-            />
-          </div>
+          <div class="psc-sub-card2">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">Tamil nadu Exams</h>
+              <img src="https://cloudfront.entri.app/media/track_icons/tamilnadu.png " class="psc-img " />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              starts at<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >24949 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >133980</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                starts at<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>24949 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>133980</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt " data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt " data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
         </div>
-      </div>
 
         <div class="col-12 col-md-4 ">
-          <div class="psc-sub-card3"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">TSPSC</h>
-            <img
-              src=" https://cloudfront.entri.app/media/track_icons/telangana-state.png"
-              class="psc-img"
-            />
-          </div>
+          <div class="psc-sub-card3">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">TSPSC</h>
+              <img src=" https://cloudfront.entri.app/media/track_icons/telangana-state.png" class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Available for<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >2499 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >10777</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>10777</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt"data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-        <!-- second row completed -->
-       
+      <!-- second row completed -->
+
 
       <div class="row">
         <div class="col-12 col-md-4">
-          <div class="psc-sub-card1"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">APPSC </h>
-            <img
-              src=" https://cloudfront.entri.app/media/track_icons/andrapradesh-02.png"
-              class="psc-img"
-            />
-          </div>
+          <div class="psc-sub-card1">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">APPSC </h>
+              <img src=" https://cloudfront.entri.app/media/track_icons/andrapradesh-02.png" class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Starts at<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >2999 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >180000</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Starts at<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2999 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>180000</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
-        </div>
         </div>
 
         <div class="col-12 col-md-4 ">
-        <div class="psc-sub-card2"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">RRB</h>
-            <img
-              src="https://cloudfront.entri.app/media/track_icons/railway.png"
-              class="psc-img"
-            />
-          </div>
+          <div class="psc-sub-card2">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">RRB</h>
+              <img src="https://cloudfront.entri.app/media/track_icons/railway.png" class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Starts at<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >1288899 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >1290000</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Starts at<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>1288899 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>1290000</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
         </div>
-      </div>
         <div class="col-12 col-md-4 ">
-          <div class="psc-sub-card3"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">PSC + RRB </h>
-            <img
-              src="https://cloudfront.entri.app/static/android/product_packages/icon_images/combo+1.png"
-              class="psc-img"
-            />
-          </div>
+          <div class="psc-sub-card3">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">PSC + RRB </h>
+              <img src="https://cloudfront.entri.app/static/android/product_packages/icon_images/combo+1.png"
+                class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Available for<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >2499 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >10000</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>10000</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
         </div>
+
       </div>
-      
-    </div>
       <!-- third row -->
 
       <div class="row ">
         <div class="col-12 col-md-4  ">
-         <div class="psc-sub-card1"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">TET CUM DSC </h>
-            <img
-              src="https://cloudfront.entri.app/static/android/product_packages/icon_images/combo+1.png"
-              class="psc-img"
-            />
-          </div>
+          <div class="psc-sub-card1">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">TET CUM DSC </h>
+              <img src="https://cloudfront.entri.app/static/android/product_packages/icon_images/combo+1.png"
+                class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Starts at<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >499 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >500</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Starts at<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>500</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
         </div>
-      </div>
 
         <div class="col-12 col-md-4">
-          <div class="psc-sub-card3"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">ENGLISH VIA TELUGU </h>
-            <img
-              src=" https://cloudfront.entri.app/media/track_icons/spoken-english.png"
-              class="psc-img"
-            />
-          </div>
+          <div class="psc-sub-card3">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">ENGLISH VIA TELUGU </h>
+              <img src=" https://cloudfront.entri.app/media/track_icons/spoken-english.png" class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Available for<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >299 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >900</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>299 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>900</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
         </div>
-      </div>
 
 
 
         <div class="col-12 col-md-4  ">
-          <div class="psc-sub-card3"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">Pharmacy Exams</h>
-            <img
-              src=" https://cloudfront.entri.app/media/track_icons/Pharmacy-exam.png"
-              class="psc-img"
-            />
-          </div>
+          <div class="psc-sub-card3">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">Pharmacy Exams</h>
+              <img src=" https://cloudfront.entri.app/media/track_icons/Pharmacy-exam.png" class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Available for<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >2499 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >699000</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>699000</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
         </div>
-      </div>
 
         <!-- fourth row  -->
       </div>
@@ -1592,1048 +1236,745 @@
       <div class="row ">
         <div class="col-12 col-md-4">
           <div class="psc-sub-card1">
-          <div class="psc-cont px-2">
-            <h class="psc-heading">Foundation Courses </h>
-            <img
-              src=" https://cloudfront.entri.app/media/track_icons/Foundation-for-Govt.-Exams.png"
-              class="psc-img"
-            />
-          </div>
+            <div class="psc-cont px-2">
+              <h class="psc-heading">Foundation Courses </h>
+              <img src=" https://cloudfront.entri.app/media/track_icons/Foundation-for-Govt.-Exams.png"
+                class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Available for<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >2499 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >1990</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>1990</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
         </div>
-      </div>
 
         <div class="col-12 col-md-4">
-          <div class="psc-sub-card2"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">GATE & EEE</h>
-            <img
-              src=" https://cloudfront.entri.app/media/track_icons/GATE---ELECTRICAL-ENGINEERING.png"
-              class="psc-img"
-            />
-          </div>
+          <div class="psc-sub-card2">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">GATE & EEE</h>
+              <img src=" https://cloudfront.entri.app/media/track_icons/GATE---ELECTRICAL-ENGINEERING.png"
+                class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Available for<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >299 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >1800</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>299 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>1800</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
         </div>
-      </div>
 
         <div class="col-12 col-md-4">
-          <div class="psc-sub-card3"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">Python Course</h>
-            <img
-              src=" https://cloudfront.entri.app/media/track_icons/Python-Programming-track.png"
-              class="psc-img"
-            />
-          </div>
+          <div class="psc-sub-card3">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">Python Course</h>
+              <img src=" https://cloudfront.entri.app/media/track_icons/Python-Programming-track.png" class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Available for<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >2499 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >9999</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>9999</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
         </div>
-      </div>
 
         <!-- fifth row -->
       </div>
 
       <div class="row ">
         <div class="col-12 col-md-4">
-          <div class="psc-sub-card1"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">JEE</h>
-            <img
-              src=" https://cloudfront.entri.app/static/android/product_packages/icon_images/combo+2.png"
-              class="psc-img"
-            />
-          </div>
+          <div class="psc-sub-card1">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">JEE</h>
+              <img src=" https://cloudfront.entri.app/static/android/product_packages/icon_images/combo+2.png"
+                class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Available for<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >24959 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >1330000</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>24959 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>1330000</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
         </div>
-      </div>
 
         <div class="col-12 col-md-4">
-          <div class="psc-sub-card2"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">SSC </h>
-            <img
-              src="https://cloudfront.entri.app/media/track_icons/staff-selection.png "
-              class="psc-img"
-            />
-          </div>
+          <div class="psc-sub-card2">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">SSC </h>
+              <img src="https://cloudfront.entri.app/media/track_icons/staff-selection.png " class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Available for<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >2499 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >10</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>10</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
         </div>
-      </div>
 
         <div class="col-12 col-md-4">
-          <div class="psc-sub-card3"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">Banking & Insurance</h>
-            <img
-              src=" https://cloudfront.entri.app/media/track_icons/banking-and-insurance.png"
-              class="psc-img"
-            />
-          </div>
+          <div class="psc-sub-card3">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">Banking & Insurance</h>
+              <img src=" https://cloudfront.entri.app/media/track_icons/banking-and-insurance.png" class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Starts at<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >499 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >19999</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Starts at<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>19999</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
         </div>
-      </div>
 
         <!-- sixth row  -->
       </div>
 
       <div class="row pb-5">
         <div class="col-12 col-md-4">
-          <div class="psc-sub-card1"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">Quant Esay</h>
-            <img
-              src=" https://cloudfront.entri.app/media/track_icons/QuantEasy.png"
-              class="psc-img"
-            />
-          </div>
+          <div class="psc-sub-card1">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">Quant Esay</h>
+              <img src=" https://cloudfront.entri.app/media/track_icons/QuantEasy.png" class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Available for<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >2499 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >2400</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2400</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
         </div>
+        <div class="col-12 col-md-4">
+          <div class="psc-sub-card2">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">Finance & Accounts</h>
+              <img src=" https://cloudfront.entri.app/media/track_icons/finance-and-accounts.png" class="psc-img" />
+            </div>
+
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>249 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>1550</span>
+              </p>
+            </div>
+
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
+          </div>
         </div>
-        
-
-
 
         <div class="col-12 col-md-4">
-          <div class="psc-sub-card2"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">Finance & Accounts</h>
-            <img
-              src=" https://cloudfront.entri.app/media/track_icons/finance-and-accounts.png"
-              class="psc-img"
-            />
-          </div>
+          <div class="psc-sub-card3">
+            <div class="psc-cont px-2">
+              <h class="psc-heading">DSSSB </h>
+              <img src=" https://cloudfront.entri.app/static/android/product_packages/icon_images/combo+2.png"
+                class="psc-img" />
+            </div>
 
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Available for<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >249 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >1550</span
-              >
-            </p>
-          </div>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>788</span>
+              </p>
+            </div>
 
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
-          </div>
-        </div>
-      </div>
-     
-        <div class="col-12 col-md-4">
-          <div class="psc-sub-card3"> 
-          <div class="psc-cont px-2">
-            <h class="psc-heading">DSSSB </h>
-            <img
-              src=" https://cloudfront.entri.app/static/android/product_packages/icon_images/combo+2.png"
-              class="psc-img"
-            />
-          </div>
-
-          <div class="psc-cont2 px-2">
-            <p class="para-psc">
-              Available for<del class="under-line-style">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >2499 </del
-              ><span class="cur-ru2"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-currency-rupee currency-rupee2"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                  /></svg
-                >788</span
-              >
-            </p>
-          </div>
-
-          <div class="psc-cont3 px-2">
-            <button class="viewdetail-bt1">VIEW DETAILS</button>
-            <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</button>
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY
+                NOW</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  
- 
-     <!-- skills page in premium  -->
-  
-  
-         <div class="container pb-5 pt-2 skill-premium-card" id="preskillpageid">
-          <div class="row">
-            <div class="col-12 col-md-4">
-              <div class="top-seller-card mt-4 mr-4 mb-3">
-                 <img src="https://cloudfront.entri.app/media/pack_thumbnails/2022/08/30/Awal-tho-Aanglam-01.png" class="top-img w-100">
-              
-                 <h5 class="card-title mt-2">English for Career Success</h5>
-                 <p class="card-text mb-0">venu gopal</p>
-                 <div class="psc-cont2 px-2">
-                  <p class="para-psc ">
-                    Available for<del class="under-line-style">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-icon"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >2499 </del
-                    ><span class="cur-ru2"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-rupee2"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >100998</span
-                    >
-                  </p>
-                </div>
-      
-                <div class="psc-cont3 px-2">
-                  <button class="viewdetail-bt1 ">VIEW DETAILS</button>
-                  <button class="viewdetail-bt " data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY NOW</button>
-                </div>
-              
-              </div>
-           
+
+
+    <!-- skills page in premium  -->
+
+
+    <div class="container pb-5 pt-2 skill-premium-card" id="preskillpageid">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="top-seller-card mt-4 mr-4 mb-3">
+            <img src="https://cloudfront.entri.app/media/pack_thumbnails/2022/08/30/Awal-tho-Aanglam-01.png"
+              class="top-img w-100">
+
+            <h5 class="card-title mt-2">English for Career Success</h5>
+            <p class="card-text mb-0">venu gopal</p>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc ">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>100998</span>
+              </p>
             </div>
-              
-          
-            <div class="col-12   col-md-4">
-              <div class="top-seller-card mt-4 mr-4 mb-3">
-                 <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/05/20/CAMPUS-TO-CORPORATE.png" class="top-img w-100">
-              
-                 <h5 class="card-title mt-2">Campus to for Corporate</h5>
-                 <p class="card-text mb-0">venu gopal</p>
-                 <div class="psc-cont2 mb-0 px-2">
-                  <p class="para-psc ">
-                    Available for<del class="under-line-style">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-icon"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >2499 </del
-                    ><span class="cur-ru2"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-rupee2"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >7885</span
-                    >
-                  </p>
-                </div>
-      
-                <div class="psc-cont3 pb-4 my-2 px-2">
-                  <button class="viewdetail-bt1 ">VIEW DETAILS</button>
-                  <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY NOW</button>
-                </div>
-              
-              </div>
-           
+
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1 ">VIEW DETAILS</button>
+              <button class="viewdetail-bt " data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY
+                NOW</button>
             </div>
-          
-            <div class="col-12   col-md-4 ">
-              <div class="top-seller-card mt-4 mr-4 mb-3 ">
-                 <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/03/31/python-programming-01.png" class="top-img w-100">
-              
-                 <h5 class="card-title mt-2">Phython for Career Success</h5>
-                 <p class="card-text mb-0">venu gopal</p>
-                 <div class="psc-cont2 mb-0 px-2">
-                  <p class="para-psc ">
-                    Available for<del class="under-line-style">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-icon"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >2499 </del
-                    ><span class="cur-ru2"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-rupee2"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >19008</span
-                    >
-                  </p>
-                </div>
-      
-                <div class="psc-cont3 pb-4  px-2">
-                  <button class="viewdetail-bt1 ">VIEW DETAILS</button>
-                  <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY NOW</button>
-                </div>
-              
-              </div>
-           
-            </div>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          <!-- second row strats here  -->
-          
+
           </div>
-        
-          <div class="row ">
-            <div class="col-12 col-md-4">
-              <div class="top-seller-card mt-4 mr-4 mb-3">
-                 <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/03/31/Introduction-to-Data-Science-and-Machine-Learning-01.png" class="top-img w-100">
-              
-                 <h5 class="card-title mt-2">Data Science & ML</h5>
-                 <p class="card-text mb-0">venu gopal</p>
-                 <div class="psc-cont2 px-2">
-                  <p class="para-psc ">
-                    Available for<del class="under-line-style">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-icon"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >2499 </del
-                    ><span class="cur-ru2"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-rupee2"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >19588</span
-                    >
-                  </p>
-                </div>
-      
-                <div class="psc-cont3 px-2">
-                  <button class="viewdetail-bt1 ">VIEW DETAILS</button>
-                  <button class="viewdetail-bt " data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY NOW</button>
-                </div>
-              
-              </div>
-           
+
+        </div>
+
+
+        <div class="col-12   col-md-4">
+          <div class="top-seller-card mt-4 mr-4 mb-3">
+            <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/05/20/CAMPUS-TO-CORPORATE.png"
+              class="top-img w-100">
+
+            <h5 class="card-title mt-2">Campus to for Corporate</h5>
+            <p class="card-text mb-0">venu gopal</p>
+            <div class="psc-cont2 mb-0 px-2">
+              <p class="para-psc ">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>7885</span>
+              </p>
             </div>
-          
-          
-            <div class="col-12   col-md-4">
-              <div class="top-seller-card mt-4 mr-4 mb-3">
-                 <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/05/20/React-Native-Development-01_1.png" class="top-img w-100">
-              
-                 <h5 class="card-title mt-2">React Native Development</h5>
-                 <p class="card-text mb-0">venu gopal</p>
-                 <div class="psc-cont2 mb-0 px-2">
-                  <p class="para-psc ">
-                    Available for<del class="under-line-style">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-icon"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >2499 </del
-                    ><span class="cur-ru2"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-rupee2"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >78888</span
-                    >
-                  </p>
-                </div>
-      
-                <div class="psc-cont3 pb-4 my-2 px-2">
-                  <button class="viewdetail-bt1 ">VIEW DETAILS</button>
-                  <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY NOW</button>
-                </div>
-              
-              </div>
-           
+
+            <div class="psc-cont3 pb-4 my-2 px-2">
+              <button class="viewdetail-bt1 ">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY
+                NOW</button>
             </div>
-          
-            <div class="col-12   col-md-4">
-              <div class="top-seller-card mt-4 mr-4 mb-3 ">
-                 <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2023/12/27/Full-Stack-Web-Development-002.png" class="top-img w-100">
-              
-                 <h5 class="card-title mt-2">Full-Stack-Web-Development</h5>
-                 <p class="card-text mb-0">venu gopal</p>
-                 <div class="psc-cont2 mb-0 px-2">
-                  <p class="para-psc ">
-                    Available for<del class="under-line-style">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-icon"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >2499 </del
-                    ><span class="cur-ru2"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-rupee2"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >11788</span
-                    >
-                  </p>
-                </div>
-      
-                <div class="psc-cont3 pb-4  px-2">
-                  <button class="viewdetail-bt1 ">VIEW DETAILS</button>
-                  <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY NOW</button>
-                </div>
-              
-              </div>
-           
+
+          </div>
+
+        </div>
+
+        <div class="col-12   col-md-4 ">
+          <div class="top-seller-card mt-4 mr-4 mb-3 ">
+            <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/03/31/python-programming-01.png"
+              class="top-img w-100">
+
+            <h5 class="card-title mt-2">Phython for Career Success</h5>
+            <p class="card-text mb-0">venu gopal</p>
+            <div class="psc-cont2 mb-0 px-2">
+              <p class="para-psc ">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>19008</span>
+              </p>
             </div>
-          
-            <div class="col-12   col-md-4">
-              <div class="top-seller-card mt-4 mr-4 mb-3 ">
-                 <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2023/09/12/C-Language-For-Beginers-01_1.png" class="top-img w-100">
-              
-                 <h5 class="card-title mt-2">C - Language</h5>
-                 <p class="card-text mb-0">venu gopal</p>
-                 <div class="psc-cont2 mb-0 px-2">
-                  <p class="para-psc ">
-                    Available for<del class="under-line-style">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-icon"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >2499 </del
-                    ><span class="cur-ru2"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-rupee2"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >78833</span
-                    >
-                  </p>
-                </div>
-      
-                <div class="psc-cont3 pb-4  px-2">
-                  <button class="viewdetail-bt1 ">VIEW DETAILS</button>
-                  <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY NOW</button>
-                </div>
-              
-              </div>
-           
+
+            <div class="psc-cont3 pb-4  px-2">
+              <button class="viewdetail-bt1 ">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY
+                NOW</button>
             </div>
-          
-          
-          
-            <div class="col-12   col-md-4">
-              <div class="top-seller-card mt-4 mr-4 mb-3 ">
-                 <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2023/09/07/ChatGPT-Essentials.png" class="top-img w-100">
-              
-                 <h5 class="card-title mt-2">ChatGPT</h5>
-                 <p class="card-text mb-0">venu gopal</p>
-                 <div class="psc-cont2 mb-0 px-2">
-                  <p class="para-psc ">
-                    Available for<del class="under-line-style">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-icon"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >2499 </del
-                    ><span class="cur-ru2"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-currency-rupee currency-rupee2"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                        /></svg
-                      >19000</span
-                    >
-                  </p>
-                </div>
-      
-                <div class="psc-cont3 pb-4  px-2">
-                  <button class="viewdetail-bt1 ">VIEW DETAILS</button>
-                  <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY NOW</button>
-                </div>
-                <div class="modal fade" id="exampleModalToggle1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                  <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h6 class="modal-title " style="font-size: 18px;margin-left:10px;" id="exampleModalToggleLabel">Available Plans</h6>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body m-2" >
-                         <div class="modal-cont px-3 mb-4">
-                          <h class="modal-year"style="font-size:15px; font-weight:bold;" >1 YEAR</h>
-                          <p class="para-psc text-dark mt-3">
-                            <del class="under-line-style">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="currentColor"
-                                class="bi bi-currency-rupee currency-icon mb-1"
-                                viewBox="0 0 16 16"
-                              >
-                                <path
-                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                                /></svg
-                              >2499 </del
-                            ><span class="cur-ru2"
-                              ><svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-currency-rupee currency-rupee2"
-                                viewBox="0 0 16 16"
-                              >
-                                <path
-                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"
-                                /></svg
-                              >10000</span
-                            >
-                          </p>
-                         </div>
-                           
-    
-                         <h class="coupon-head">I have a coupon code </h>
-                           
-                         <div class="modal-cont1 px-3 mt-3">
-                          
-                          <p class="mt-3" style="font-size:15px; font-weight:bold; color:rgb(169, 164, 164);">Enter coupon code</p>
-                         
-                           <button class="bt-coupon">APPLY</button>
-                        
-                        
-                        </div>
-                        
-                      </div>
-                      
-                        <div class="modal-cont2 mt-3">
-                          
-                         
-                          <button class="bt-coupon1">BUY NOW</button>
-                       
-                       
+
+          </div>
+
+        </div>
+       <!-- second row strats here  -->
+
+      </div>
+
+      <div class="row ">
+        <div class="col-12 col-md-4">
+          <div class="top-seller-card mt-4 mr-4 mb-3">
+            <img
+              src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/03/31/Introduction-to-Data-Science-and-Machine-Learning-01.png"
+              class="top-img w-100">
+
+            <h5 class="card-title mt-2">Data Science & ML</h5>
+            <p class="card-text mb-0">venu gopal</p>
+            <div class="psc-cont2 px-2">
+              <p class="para-psc ">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>19588</span>
+              </p>
+            </div>
+
+            <div class="psc-cont3 px-2">
+              <button class="viewdetail-bt1 ">VIEW DETAILS</button>
+              <button class="viewdetail-bt " data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY
+                NOW</button>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-12   col-md-4">
+          <div class="top-seller-card mt-4 mr-4 mb-3">
+            <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2022/05/20/React-Native-Development-01_1.png"
+              class="top-img w-100">
+
+            <h5 class="card-title mt-2">React Native Development</h5>
+            <p class="card-text mb-0">venu gopal</p>
+            <div class="psc-cont2 mb-0 px-2">
+              <p class="para-psc ">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>78888</span>
+              </p>
+            </div>
+
+            <div class="psc-cont3 pb-4 my-2 px-2">
+              <button class="viewdetail-bt1 ">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY
+                NOW</button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-12   col-md-4">
+          <div class="top-seller-card mt-4 mr-4 mb-3 ">
+            <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2023/12/27/Full-Stack-Web-Development-002.png"
+              class="top-img w-100">
+
+            <h5 class="card-title mt-2">Full-Stack-Web-Development</h5>
+            <p class="card-text mb-0">venu gopal</p>
+            <div class="psc-cont2 mb-0 px-2">
+              <p class="para-psc ">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>11788</span>
+              </p>
+            </div>
+
+            <div class="psc-cont3 pb-4  px-2">
+              <button class="viewdetail-bt1 ">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY
+                NOW</button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-12   col-md-4">
+          <div class="top-seller-card mt-4 mr-4 mb-3 ">
+            <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2023/09/12/C-Language-For-Beginers-01_1.png"
+              class="top-img w-100">
+
+            <h5 class="card-title mt-2">C - Language</h5>
+            <p class="card-text mb-0">venu gopal</p>
+            <div class="psc-cont2 mb-0 px-2">
+              <p class="para-psc ">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>78833</span>
+              </p>
+            </div>
+
+            <div class="psc-cont3 pb-4  px-2">
+              <button class="viewdetail-bt1 ">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY
+                NOW</button>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-12   col-md-4">
+          <div class="top-seller-card mt-4 mr-4 mb-3 ">
+            <img src=" https://cloudfront.entri.app/media/pack_thumbnails/2023/09/07/ChatGPT-Essentials.png"
+              class="top-img w-100">
+
+            <h5 class="card-title mt-2">ChatGPT</h5>
+            <p class="card-text mb-0">venu gopal</p>
+            <div class="psc-cont2 mb-0 px-2">
+              <p class="para-psc ">
+                Available for<del class="under-line-style">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee currency-icon"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-currency-rupee currency-rupee2" viewBox="0 0 16 16">
+                    <path
+                      d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                  </svg>19000</span>
+              </p>
+            </div>
+
+            <div class="psc-cont3 pb-4  px-2">
+              <button class="viewdetail-bt1 ">VIEW DETAILS</button>
+              <button class="viewdetail-bt" data-bs-toggle="modal" href="#exampleModalToggle1" role="button">BUY
+                NOW</button>
+            </div>
+            <div class="modal fade" id="exampleModalToggle1" aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h6 class="modal-title " style="font-size: 18px;margin-left:10px;" id="exampleModalToggleLabel">
+                      Available Plans</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
+                  <div class="modal-body m-2">
+                    <div class="modal-cont px-3 mb-4">
+                      <h class="modal-year" style="font-size:15px; font-weight:bold;">1 YEAR</h>
+                      <p class="para-psc text-dark mt-3">
+                        <del class="under-line-style">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            class="bi bi-currency-rupee currency-icon mb-1" viewBox="0 0 16 16">
+                            <path
+                              d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                          </svg>2499 </del><span class="cur-ru2"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-currency-rupee currency-rupee2"
+                            viewBox="0 0 16 16">
+                            <path
+                              d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z" />
+                          </svg>10000</span>
+                      </p>
+                    </div>
+
+
+                    <h class="coupon-head">I have a coupon code </h>
+
+                    <div class="modal-cont1 px-3 mt-3">
+
+                      <p class="mt-3" style="font-size:15px; font-weight:bold; color:rgb(169, 164, 164);">Enter coupon
+                        code</p>
+
+                      <button class="bt-coupon">APPLY</button>
+                 </div>
+                 </div>
+                     <div class="modal-cont2 mt-3">
+                 <button class="bt-coupon1">BUY NOW</button>
+                  </div>
+                </div>
+
               </div>
-           
+             </div>
             </div>
           
           
-          
-          
-          </div>
-        
-</div>
-  
-   
- <script>
-      const premiumbtnfunc = document.getElementById("premiumbtid");
-      const premiumfunc = document.getElementById("premiumid");
-      const exam = document.getElementById("exampageid");
-      const skill = document.getElementById("skillspageid");
-      const skillButton = document.getElementById("skillbt");
-      const downPop = document.getElementById("contpop");
-      const closePop = document.getElementById("closeid");
-      const goldskilpagefun = document.getElementById("preskillpageid");  
-      const gcoursepagefun = document.getElementById("goldcoursepageid");
-      const sikkiprebt = document.getElementById("skillsprebtid");
-      const groupsfunbt = document.getElementById("groupsbtnid");
-      const groupsfunpage = document.getElementById("groupspageid");
-      const backfuncid = document.getElementById("backbtid");
-      const exbackfuncid = document.getElementById("exbackbtn");
-      const navbtmfuncid = document.getElementById("btmnavid");
-      const morepagefunc = document.getElementById("smorepageid");
-      const morebtnfunc = document.getElementById("morebtnid");
+          <script>
+            const premiumbtnfunc = document.getElementById("premiumbtid");
+            const premiumfunc = document.getElementById("premiumid");
+            const exam = document.getElementById("exampageid");
+            const skill = document.getElementById("skillspageid");
+            const skillButton = document.getElementById("skillbt");
+            const downPop = document.getElementById("contpop");
+            const closePop = document.getElementById("closeid");
+            const goldskilpagefun = document.getElementById("preskillpageid");
+            const gcoursepagefun = document.getElementById("goldcoursepageid");
+            const sikkiprebt = document.getElementById("skillsprebtid");
+            const groupsfunbt = document.getElementById("groupsbtnid");
+            const groupsfunpage = document.getElementById("groupspageid");
+            const backfuncid = document.getElementById("backbtid");
+            const exbackfuncid = document.getElementById("exbackbtn");
+            const navbtmfuncid = document.getElementById("btmnavid");
+            const morepagefunc = document.getElementById("smorepageid");
+            const morebtnfunc = document.getElementById("morebtnid");
 
 
 
-      skillButton.onclick = showskill;
+            skillButton.onclick = showskill;
 
-      function showskill() {
-        exam.style.display = "none";
-        skill.style.display = "block";
-        downPop.style.display = "none";
-        premiumfunc.style.display = "none";
-        goldskilpagefun.style.display = "none";
-        groupsfunpage.style.display = "none";
-        morepagefunc.style.display = "none";
-      }
+            function showskill() {
+              exam.style.display = "none";
+              skill.style.display = "block";
+              downPop.style.display = "none";
+              premiumfunc.style.display = "none";
+              goldskilpagefun.style.display = "none";
+              groupsfunpage.style.display = "none";
+              morepagefunc.style.display = "none";
+            }
 
-      document.getElementById("exambt").addEventListener("click", skillhide);
+            document.getElementById("exambt").addEventListener("click", skillhide);
 
-      function skillhide() {
-        exam.style.display = "block";
-        skill.style.display = "none";
-        downPop.style.display = "none";
-        premiumfunc.style.display = "none";
-        goldskilpagefun.style.display = "none"
-        groupsfunpage.style.display = "none";
-        morepagefunc.style.display = "none";
-      }
+            function skillhide() {
+              exam.style.display = "block";
+              skill.style.display = "none";
+              downPop.style.display = "none";
+              premiumfunc.style.display = "none";
+              goldskilpagefun.style.display = "none"
+              groupsfunpage.style.display = "none";
+              morepagefunc.style.display = "none";
+            }
 
-      closeid.onclick = showpop;
+            closeid.onclick = showpop;
 
-      function showpop() {
-        downPop.style.display = "block";
-      }
+            function showpop() {
+              downPop.style.display = "block";
+            }
 
-      document
-        .getElementById("close-bt-pop")
-        .addEventListener("click", pophide);
+            document
+              .getElementById("close-bt-pop")
+              .addEventListener("click", pophide);
 
-      function pophide() {
-        downPop.style.display = "none";
-      }
-   
-   
-        premiumbtnfunc.onclick = showpremium;
-   
-   
-     function showpremium(){
-      exam.style.display = "none";
-      skill.style.display = "none";
-      downPop.style.display = "none";
-      premiumfunc.style.display = "block";
-      goldskilpagefun.style.display = "none"
-      groupsfunpage.style.display = "none";
-      morepagefunc.style.display = "none";
-     }
-   
-     document.getElementById("skillsprebtid").addEventListener('click',hidegoldprepg);
-
-         function hidegoldprepg(){
-          exam.style.display = "none";
-          skill.style.display = "none";
-          downPop.style.display = "none";
-          premiumfunc.style.display = "block";
-          goldskilpagefun.style.display = "block"
-          gcoursepagefun.style.display = "none"
-          groupsfunpage.style.display = "none";
-          navbtmfuncid.style.display = "none";
-          exbackfuncid.style.display = "none";
-          backfuncid.style.display = "block";
-          morepagefunc.style.display = "none";
-          
-         }
-
-         document.getElementById("examsprebtid").addEventListener('click',hidegoldprebt);
-
-         function hidegoldprebt(){
-          exam.style.display = "none";
-          skill.style.display = "none";
-          downPop.style.display = "none";
-          premiumfunc.style.display = "block";
-          goldskilpagefun.style.display = "none"
-          gcoursepagefun.style.display = "block"
-          groupsfunpage.style.display = "none";
-          navbtmfuncid.style.display = "block";
-          
-          exbackfuncid.style.display = "block";
-          backfuncid.style.display = "none";
-          morepagefunc.style.display = "none";
-         }
-
-   
-       
-              groupsfunbt.onclick = showgroupspage;
-   
-   
-      function showgroupspage(){
-        exam.style.display = "none";
-        skill.style.display = "none";
-        downPop.style.display = "none";
-        premiumfunc.style.display = "none";
-        goldskilpagefun.style.display = "none"
-        groupsfunpage.style.display = "block";
-        morepagefunc.style.display = "none";
-      }
-   
-       
-          morebtnfunc.onclick = showmorefun;
-
-          function showmorefun(){
-            morepagefunc.style.display = "block";
-            groupsfunpage.style.display = "none";
-            exam.style.display = "none";
-        skill.style.display = "none";
-        downPop.style.display = "none";
-        premiumfunc.style.display = "none";
-        goldskilpagefun.style.display = "none"
-          
-      }
+            function pophide() {
+              downPop.style.display = "none";
+            }
 
 
+            premiumbtnfunc.onclick = showpremium;
 
 
-       function openfile(){
-       const openfiy = document.getElementById("file");
-                openfiy.style.display = "block";
-                
-       }
+            function showpremium() {
+              exam.style.display = "none";
+              skill.style.display = "none";
+              downPop.style.display = "none";
+              premiumfunc.style.display = "block";
+              goldskilpagefun.style.display = "none"
+              groupsfunpage.style.display = "none";
+              morepagefunc.style.display = "none";
+            }
+
+            document.getElementById("skillsprebtid").addEventListener('click', hidegoldprepg);
+
+            function hidegoldprepg() {
+              exam.style.display = "none";
+              skill.style.display = "none";
+              downPop.style.display = "none";
+              premiumfunc.style.display = "block";
+              goldskilpagefun.style.display = "block"
+              gcoursepagefun.style.display = "none"
+              groupsfunpage.style.display = "none";
+              navbtmfuncid.style.display = "none";
+              exbackfuncid.style.display = "none";
+              backfuncid.style.display = "block";
+              morepagefunc.style.display = "none";
+
+            }
+
+            document.getElementById("examsprebtid").addEventListener('click', hidegoldprebt);
+
+            function hidegoldprebt() {
+              exam.style.display = "none";
+              skill.style.display = "none";
+              downPop.style.display = "none";
+              premiumfunc.style.display = "block";
+              goldskilpagefun.style.display = "none"
+              gcoursepagefun.style.display = "block"
+              groupsfunpage.style.display = "none";
+              navbtmfuncid.style.display = "block";
+
+              exbackfuncid.style.display = "block";
+              backfuncid.style.display = "none";
+              morepagefunc.style.display = "none";
+            }
+
+             groupsfunbt.onclick = showgroupspage;
 
 
+            function showgroupspage() {
+              exam.style.display = "none";
+              skill.style.display = "none";
+              downPop.style.display = "none";
+              premiumfunc.style.display = "none";
+              goldskilpagefun.style.display = "none"
+              groupsfunpage.style.display = "block";
+              morepagefunc.style.display = "none";
+            }
 
 
+            morebtnfunc.onclick = showmorefun;
 
+            function showmorefun() {
+              morepagefunc.style.display = "block";
+              groupsfunpage.style.display = "none";
+              exam.style.display = "none";
+              skill.style.display = "none";
+              downPop.style.display = "none";
+              premiumfunc.style.display = "none";
+              goldskilpagefun.style.display = "none"
 
+            }
+             function openfile() {
+              const openfiy = document.getElementById("file");
+              openfiy.style.display = "block";
 
-   
-    </script>
+            }
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+            </script>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+
 </html>
