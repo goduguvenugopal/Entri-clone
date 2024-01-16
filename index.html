@@ -711,11 +711,11 @@
                     <label for="text" class="nastyle mt-3">Name</label><br>
                     <input type="text" value="" name="text" id="text" placeholder=" Enter Full Name" required max="15"><br>
 
-                    <label for="tel" class="nastyle mt-3">Mobile Number</label><br>
+                    <label for="txt" class="nastyle mt-3">Mobile Number</label><br>
                     <input type="number" value="" name="num" id="txt" required min="10" placeholder=" Enter mobile Number"> <br>
 
-                    <label for="txt" class="nastyle mt-3"   >Email</label><br>
-                    <input type="email" value="" name="mail" id="txt"  > <br>
+                    <!-- <label for="txt" class="nastyle mt-3">Email</label><br> -->
+                    <!-- <input type="email" value="" name="mail" id="txt"  > <br> -->
 
                     <input type="submit" value="save" class="mt-4 pb-1" id="offcanvashead" ></input>
 
@@ -1975,6 +1975,8 @@
             const maimformfunc = document.getElementById("mainform");
             const textformfunc = document.getElementById("text");
             const headrefunc = document.querySelectorAll(".modal-title");
+            const numformfunc = document.getElementById("txt");
+            const numrefunc = document.querySelectorAll(".number");
 
 
             maimformfunc.addEventListener("submit",function(x){
@@ -1986,6 +1988,11 @@
                 a.textContent = myfunc
               })
               
+              const numvar = numformfunc.value
+              
+              numrefunc.forEach(function(a){
+                a.textContent = numvar
+              })
 
 
              })
