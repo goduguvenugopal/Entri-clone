@@ -45,7 +45,7 @@
 
         <div class="modalcont">
           <!-- Button trigger modal -->
-          <button type="button" id="promodal" class="btn btn-primary" data-bs-toggle="modal"
+          <button type="button" id="promodal" class="btn btn-primary  modal-title" data-bs-toggle="modal"
             data-bs-target="#exampleModal">
             Hii, Venu Gopal<img
               src="https://cloudfront.entri.app/media/display_pictures/user_8235571/3968701907976145915-2208453354971277968-1699346659.7082772.jpeg"
@@ -1974,15 +1974,18 @@
 
             const maimformfunc = document.getElementById("mainform");
             const textformfunc = document.getElementById("text");
-            const headrefunc = document.getElementById("exhead");
+            const headrefunc = document.querySelectorAll(".modal-title");
 
 
             maimformfunc.addEventListener("submit",function(x){
               x.preventDefault()
-                
+                alert("Profile Details have been Changed")
               const myfunc = textformfunc.value
                  
-              headrefunc.textContent = myfunc
+              headrefunc.forEach(function(a){
+                a.textContent = myfunc
+              })
+              
 
 
              })
