@@ -16,7 +16,7 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
-<body class="bodystyle">
+<body class="bodystyle" id="bdbgid">
   <!-- header  -->
 
   <header>
@@ -668,7 +668,7 @@
 
 
   <div class=" d-md-none" id="smorepageid">
-    <div class="mainproficard pb-2 mb-3">
+    <div class="mainproficard pb-2 mb-">
       <div class="container">
         <div class="proflex-card pb-3">
           <img
@@ -757,7 +757,7 @@
     </div>
 
 
-    <div class="icons-cuopo-card bg-white">
+    <div class="icons-cuopo-card pb-3 pt-3 bg-white">
       <div class="container">
         <div class="icon-cont2 d-flex">
           <span class="material-symbols-outlined noticon">
@@ -780,6 +780,37 @@
           </span>
           <h4 class="subscriptions">Logout</h4>
         </div>
+          
+        <div class="icon-cont2 d-flex justify-content-between">
+          <div class="d-flex"> 
+          <span class="material-symbols-outlined noticon">
+            dark_mode
+          </span>
+          <h4 class="subscriptions">Themes</h4>
+        </div>
+             
+        <select id="selcolor" class="mt-2">
+        <option value="none">Default</option>
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="black">black</option>
+        <option value="pink">pink</option>
+        <option value="purple">purple</option>
+        <option value="yellow">yellow</option>
+        <option value="orange">orange</option>
+        <option value="maroon">maroon</option>
+        <option value="lightblue">lightblue</option>
+        <option value="gold">gold</option>
+        <option value="blue">blue</option>
+        <option value="brown">brown</option>
+        <option value="gray">gray</option>
+        <option value="palevioletred">palevioletred</option>
+        </select>
+      
+      </div>
+
+
+
       </div>
  </div>
 <!-- Modal -->
@@ -1993,13 +2024,18 @@
               numrefunc.forEach(function(a){
                 a.textContent = numvar
               })
-
+            
+               maimformfunc.reset()
 
              })
+      
+              const setcolfun = document.getElementById("selcolor");
+              const bodyfunc  = document.getElementById("bdbgid");
 
-
-
-
+                 setcolfun.addEventListener('change',function(){
+                  bodyfunc.style.backgroundColor = setcolfun.value
+                 })
+              
 
 
 
