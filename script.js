@@ -1,4 +1,3 @@
-
 const premiumbtnfunc = document.getElementById("premiumbtid");
 const premiumfunc = document.getElementById("premiumid");
 const exam = document.getElementById("exampageid");
@@ -16,8 +15,6 @@ const exbackfuncid = document.getElementById("exbackbtn");
 const navbtmfuncid = document.getElementById("btmnavid");
 const morepagefunc = document.getElementById("smorepageid");
 const morebtnfunc = document.getElementById("morebtnid");
-
-
 
 skillButton.onclick = showskill;
 
@@ -38,7 +35,7 @@ function skillhide() {
   skill.style.display = "none";
   downPop.style.display = "none";
   premiumfunc.style.display = "none";
-  goldskilpagefun.style.display = "none"
+  goldskilpagefun.style.display = "none";
   groupsfunpage.style.display = "none";
   morepagefunc.style.display = "none";
 }
@@ -49,54 +46,53 @@ function showpop() {
   downPop.style.display = "block";
 }
 
-document
-  .getElementById("close-bt-pop")
-  .addEventListener("click", pophide);
+document.getElementById("close-bt-pop").addEventListener("click", pophide);
 
 function pophide() {
   downPop.style.display = "none";
 }
 
-
 premiumbtnfunc.onclick = showpremium;
-
 
 function showpremium() {
   exam.style.display = "none";
   skill.style.display = "none";
   downPop.style.display = "none";
   premiumfunc.style.display = "block";
-  goldskilpagefun.style.display = "none"
+  goldskilpagefun.style.display = "none";
   groupsfunpage.style.display = "none";
   morepagefunc.style.display = "none";
 }
 
-document.getElementById("skillsprebtid").addEventListener('click', hidegoldprepg);
+document
+  .getElementById("skillsprebtid")
+  .addEventListener("click", hidegoldprepg);
 
 function hidegoldprepg() {
   exam.style.display = "none";
   skill.style.display = "none";
   downPop.style.display = "none";
   premiumfunc.style.display = "block";
-  goldskilpagefun.style.display = "block"
-  gcoursepagefun.style.display = "none"
+  goldskilpagefun.style.display = "block";
+  gcoursepagefun.style.display = "none";
   groupsfunpage.style.display = "none";
   navbtmfuncid.style.display = "none";
   exbackfuncid.style.display = "none";
   backfuncid.style.display = "block";
   morepagefunc.style.display = "none";
-
 }
 
-document.getElementById("examsprebtid").addEventListener('click', hidegoldprebt);
+document
+  .getElementById("examsprebtid")
+  .addEventListener("click", hidegoldprebt);
 
 function hidegoldprebt() {
   exam.style.display = "none";
   skill.style.display = "none";
   downPop.style.display = "none";
   premiumfunc.style.display = "block";
-  goldskilpagefun.style.display = "none"
-  gcoursepagefun.style.display = "block"
+  goldskilpagefun.style.display = "none";
+  gcoursepagefun.style.display = "block";
   groupsfunpage.style.display = "none";
   navbtmfuncid.style.display = "block";
 
@@ -105,19 +101,17 @@ function hidegoldprebt() {
   morepagefunc.style.display = "none";
 }
 
- groupsfunbt.onclick = showgroupspage;
-
+groupsfunbt.onclick = showgroupspage;
 
 function showgroupspage() {
   exam.style.display = "none";
   skill.style.display = "none";
   downPop.style.display = "none";
   premiumfunc.style.display = "none";
-  goldskilpagefun.style.display = "none"
+  goldskilpagefun.style.display = "none";
   groupsfunpage.style.display = "block";
   morepagefunc.style.display = "none";
 }
-
 
 morebtnfunc.onclick = showmorefun;
 
@@ -128,16 +122,12 @@ function showmorefun() {
   skill.style.display = "none";
   downPop.style.display = "none";
   premiumfunc.style.display = "none";
-  goldskilpagefun.style.display = "none"
-
+  goldskilpagefun.style.display = "none";
 }
- function openfile() {
+function openfile() {
   const openfiy = document.getElementById("file");
   openfiy.style.display = "block";
-
 }
-
- 
 
 const maimformfunc = document.getElementById("mainform");
 const textformfunc = document.getElementById("text");
@@ -145,54 +135,46 @@ const headrefunc = document.querySelectorAll(".modal-title");
 const numformfunc = document.getElementById("txt");
 const numrefunc = document.querySelectorAll(".number");
 
+maimformfunc.addEventListener("submit", function (x) {
+  x.preventDefault();
+  alert("Profile Details have been Changed");
+  const myfunc = textformfunc.value;
 
-maimformfunc.addEventListener("submit",function(x){
-  x.preventDefault()
-    alert("Profile Details have been Changed")
-  const myfunc = textformfunc.value
-     
-  headrefunc.forEach(function(a){
-    a.textContent = myfunc
-  })
-  
-  const numvar = numformfunc.value
-  
-  numrefunc.forEach(function(a){
-    a.textContent = numvar
-  })
+  headrefunc.forEach(function (a) {
+    a.textContent = myfunc;
+  });
 
-   maimformfunc.reset()
+  const numvar = numformfunc.value;
 
- })
+  numrefunc.forEach(function (a) {
+    a.textContent = numvar;
+  });
 
-  const setcolfun = document.getElementById("selcolor");
-  const bodyfunc  = document.getElementById("bdbgid");
+  maimformfunc.reset();
+});
 
-     setcolfun.addEventListener('change',function(){
-      bodyfunc.style.backgroundColor = setcolfun.value
-     })
-  
+const setcolfun = document.getElementById("selcolor");
+const bodyfunc = document.getElementById("bdbgid");
 
+setcolfun.addEventListener("change", function () {
+  bodyfunc.style.backgroundColor = setcolfun.value;
+});
 
-     function handleFile() {
-const fileInput = document.getElementById('file');
+function handleFile() {
+  const fileInput = document.getElementById("file");
 
-const previewImage = document.getElementById('previewImage');
+  const previewImage = document.getElementById("previewImage");
 
-const selectedFile = fileInput.files[0];
+  const selectedFile = fileInput.files[0];
 
-if (selectedFile && selectedFile.type.startsWith('image/')) {
-const reader = new FileReader();
-reader.onload = function (e) {
-previewImage.src = e.target.result;
-};
-reader.readAsDataURL(selectedFile);
-previewImage.style.display = 'block';
-} else {
-previewImage.style.display = 'none';
+  if (selectedFile && selectedFile.type.startsWith("image/")) {
+    const reader = new FileReader();
+    reader.onload = function (e) {
+      previewImage.src = e.target.result;
+    };
+    reader.readAsDataURL(selectedFile);
+    previewImage.style.display = "block";
+  } else {
+    previewImage.style.display = "none";
+  }
 }
-}
-
-
-
-

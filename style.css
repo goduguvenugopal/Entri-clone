@@ -43,7 +43,6 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  
 }
 
 .profile-img2 {
@@ -843,14 +842,14 @@ li {
   color: rgb(232, 54, 214);
   font-weight: bold;
   font-size: 19px;
-   border: none;
+  border: none;
   border-radius: 20px;
   width: 80px;
-  border:solid 1px rgb(194, 68, 219); 
+  border: solid 1px rgb(194, 68, 219);
 }
 
 #offcanvashead:hover {
-  color: rgb(36, 171, 208) ;
+  color: rgb(36, 171, 208);
   cursor: pointer;
   box-shadow: 1px 2px 9px rgb(198, 48, 195);
 }
@@ -898,18 +897,18 @@ li {
   height: 400px;
 }
 
- #exhead{
+#exhead {
   font-size: 19px;
   /* margin-left: 13px; */
- }
- 
-#txt,#text {
+}
+
+#txt,
+#text {
   width: 270px;
   height: 35px;
   border-radius: 15px;
   border: solid 1.5px black;
   box-shadow: 1px 2px 9px rgb(207, 208, 208);
-   
 }
 
 #txt:hover {
@@ -919,7 +918,6 @@ li {
 #text:hover {
   box-shadow: 1px 2px 9px rgb(198, 48, 195);
 }
-
 
 .nastyle {
   font-size: 17px;
@@ -966,8 +964,7 @@ li {
   display: none;
 }
 
-
-#selcolor{
+#selcolor {
   width: 80px;
   font-size: 13px;
   height: 25px;
