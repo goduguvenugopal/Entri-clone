@@ -858,16 +858,35 @@ li {
   color: white;
   background-color: white;
   font-size: 10px;
-  display: none;
+  /* display: none; */
+  
 }
+
+.pick{
+  visibility:hidden;
+}
+
+
+
+.cam-pic-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 #camera {
   margin-left: 3px;
-  background-color: white;
-  padding: 5px;
+  margin-bottom: 10px;
+  
+  padding: 3px;
   box-shadow: 1px 2px 9px rgb(207, 208, 208);
   color: black;
   border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  user-select: none;
+  
 }
 
 #camera:hover {
@@ -876,7 +895,7 @@ li {
   cursor: pointer;
 }
 
-.profile-img1 {
+#previewImage{
   height: 90px;
   width: 90px;
   border-radius: 50%;
@@ -885,16 +904,20 @@ li {
   padding: 3px;
 }
 
+ 
 .filecardpic {
   display: flex;
+  /* flex-direction: column; */
   justify-content: center;
-  padding-left: 74px;
+  padding-left: 89px;
+  align-items: flex-start;
+  padding-bottom: 10px;
 }
 
 .inputfieldcard {
   box-shadow: 1px 2px 9px rgb(207, 208, 208);
   border-radius: 15px;
-  height: 400px;
+  height: 469px;
 }
 
 #exhead {

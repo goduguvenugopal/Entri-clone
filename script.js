@@ -126,7 +126,7 @@ function showmorefun() {
 }
 function openfile() {
   const openfiy = document.getElementById("file");
-  openfiy.style.display = "block";
+  openfiy.classList.toggle("pick");
 }
 
 const maimformfunc = document.getElementById("mainform");
@@ -160,21 +160,31 @@ setcolfun.addEventListener("change", function () {
   bodyfunc.style.backgroundColor = setcolfun.value;
 });
 
+  
+
+
+
 function handleFile() {
   const fileInput = document.getElementById("file");
-
-  const previewImage = document.getElementById("previewImage");
+  const previewImages = document.querySelectorAll(".profile-img1,.profi-img");
 
   const selectedFile = fileInput.files[0];
 
   if (selectedFile && selectedFile.type.startsWith("image/")) {
     const reader = new FileReader();
+
     reader.onload = function (e) {
-      previewImage.src = e.target.result;
+      previewImages.forEach(function (previewImage) {
+        previewImage.src = e.target.result;
+        previewImage.style.display = "block";
+      });
     };
+
     reader.readAsDataURL(selectedFile);
-    previewImage.style.display = "block";
   } else {
-    previewImage.style.display = "none";
+    previewImages.forEach(function (previewImage) {
+      previewImage.style.display = "none";
+    });
   }
 }
+
