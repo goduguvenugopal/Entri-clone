@@ -166,7 +166,7 @@ setcolfun.addEventListener("change", function () {
 
 function handleFile() {
   const fileInput = document.getElementById("file");
-  const previewImages = document.querySelectorAll(".profile-img1,.profi-img");
+  const previewImages = document.querySelectorAll(".profile-img1,.profi-img,.profile-img,.profile-img2");
 
   const selectedFile = fileInput.files[0];
 

@@ -25,9 +25,17 @@
   box-shadow: 0px 0px 3px;
 }
 
+
+.trigger-card{
+  background-color: rgba(236, 234, 233, 0.831) ;
+  border-radius: 20px;
+  display: flex;
+}
+
+
 #promodal {
   background-color: rgba(236, 234, 233, 0.831);
-  border-radius: 29px;
+  border-radius: 20px;
   border: none;
   color: black;
   font-size: 15px;
@@ -35,7 +43,7 @@
   font-weight: bold;
   text-align: center;
   margin-right: 5px;
-
+ 
   padding-right: 1px;
 }
 .profile-img {
@@ -43,6 +51,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  
 }
 
 .profile-img2 {
