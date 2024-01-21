@@ -1,8 +1,0 @@
-{
-  "zenMode.hideActivityBar": true,
-  "debug.hideLauncherWhileDebugging": false,
-  "files.autoSave": "afterDelay",
-  "accessibility.hideAccessibleView": false,
-  "json.schemas": [],
-  "editor.formatOnSave": true
-}

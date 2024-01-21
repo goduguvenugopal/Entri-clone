@@ -133,7 +133,7 @@ const maimformfunc = document.getElementById("mainform");
 const textformfunc = document.getElementById("text");
 const headrefunc = document.querySelectorAll(".modal-title");
 const numformfunc = document.getElementById("txt");
-const numrefunc = document.querySelectorAll(".number");
+const numrefunc = document.querySelectorAll(".number,.number1");
 
 maimformfunc.addEventListener("submit", function (x) {
   x.preventDefault();
@@ -188,3 +188,15 @@ function handleFile() {
   }
 }
 
+
+
+function expandfunc(expaimg){
+  document.getElementById("expand-card").style.display = "flex";
+
+   document.getElementById("srcimgid").src = expaimg.src;
+
+}
+
+function closefunc(){
+  document.getElementById("expand-card").style.display = "none";
+}
