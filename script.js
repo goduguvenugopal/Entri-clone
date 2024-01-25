@@ -180,7 +180,7 @@ function handleFile() {
     reader.readAsDataURL(selectedFile);
   } else {
     previewImages.forEach(function (previewImage) {
-      previewImage.style.display = "none";
+      previewImage.style.display = "block";
     });
   }
 }
