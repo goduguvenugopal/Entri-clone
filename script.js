@@ -124,10 +124,7 @@ function showmorefun() {
   premiumfunc.style.display = "none";
   goldskilpagefun.style.display = "none";
 }
-function openfile() {
-  const openfiy = document.getElementById("file");
-  openfiy.classList.toggle("pick");
-}
+ 
 
 const maimformfunc = document.getElementById("mainform");
 const textformfunc = document.getElementById("text");

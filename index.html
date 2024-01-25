@@ -717,13 +717,18 @@
                 <img
                   src="https://cloudfront.entri.app/media/display_pictures/user_8235571/3968701907976145915-2208453354971277968-1699346659.7082772.jpeg"
                   class="profile-img1 mb-3" id="previewImage" />
-                <span class="material-symbols-outlined" id="camera" onclick="openfile()">
+                <!-- <span class="material-symbols-outlined" id="camera" onclick="openfile()">
                   photo_camera
-                </span>
+                </span> -->
               
               </div>
+              <label for="file"> <span class="material-symbols-outlined" id="camera" onclick="openfile()">
+                photo_camera
+              </span></label>
               <h6 class="chapic pb-3 pt-3">Change Profile Photo</h6>
+              
                 <div class="filecardpic">
+                  
                   <input type="file" value="file" id="file" accept="image/*" onchange="handleFile()">
                     
                 </div>
