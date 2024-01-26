@@ -15,11 +15,22 @@
   .icon-container {
     display: none;
   }
+
+ 
+
+
 }
+
+ 
+
+
 @media screen and (max-width: 770px) {
   .modalcont {
     display: none;
   }
+
+   
+
 }
 
 .cont-logo {
@@ -831,24 +842,61 @@ li {
 .mainproficard {
   background-color: rgb(73, 169, 210);
   padding-top: 15px;
+  
 }
 
-.proflex-card {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+@media screen and (min-width: 770px) {
+  
+
+  .proflex-card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+  }
+
+  #smorepageid {
+    
+    height: 140vh;
+   
+  }
+
+  .profi-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
 }
+
+
+
+@media screen and (max-width: 770px) {
+  
+  .proflex-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  .profi-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+}
+
+ 
 .proflex-card1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.profi-img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-}
+ 
 
 .viewprofibt {
   font-size: 12px;
@@ -859,6 +907,7 @@ li {
   border-radius: 20px;
   color: white;
   border: solid 1px white;
+  /* align-self: flex-end; */
 }
 
 .viewprofibt:hover {
@@ -1041,6 +1090,8 @@ li {
 
 #smorepageid {
   display: none;
+  
+  
 }
 
 #selcolor {
