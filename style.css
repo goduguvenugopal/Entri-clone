@@ -16,7 +16,8 @@
     display: none;
   }
 
- 
+  
+
 
 
 }
@@ -36,6 +37,9 @@
 .cont-logo {
   box-shadow: 0px 0px 3px;
 }
+
+ 
+
 
 
 .trigger-card{
@@ -847,7 +851,7 @@ li {
 
 @media screen and (min-width: 770px) {
   
-
+   
   .proflex-card{
     text-align: center;
     display: flex;
@@ -862,7 +866,12 @@ li {
     height: 140vh;
    
   }
-
+  #closeid{
+    display: block;
+   }
+   #closeid{
+    display: flex;
+   }
   .profi-img {
     width: 100px;
     height: 100px;
@@ -874,6 +883,12 @@ li {
 
 @media screen and (max-width: 770px) {
   
+
+ #closeid{
+  display: none;
+ }
+
+
   .proflex-card {
     display: flex;
     justify-content: space-around;
@@ -895,9 +910,7 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-
  
-
 .viewprofibt {
   font-size: 12px;
   font-weight: bold;
@@ -1061,6 +1074,14 @@ li {
 .icon-cont2 {
   margin-left: 5px;
   padding: 10px;
+  
+}
+
+.icon-cont3 {
+  margin-left: 5px;
+  padding: 10px;
+   display: flex;
+  
 }
 
 .icon-cont2:hover {
