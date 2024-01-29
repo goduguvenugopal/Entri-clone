@@ -1,3 +1,5 @@
+// page navigation code goes here
+
 const premiumbtnfunc = document.getElementById("premiumbtid");
 const premiumfunc = document.getElementById("premiumid");
 const exam = document.getElementById("exampageid");
@@ -124,31 +126,35 @@ function showmorefun() {
   premiumfunc.style.display = "none";
   goldskilpagefun.style.display = "none";
 }
- 
 
+// form submittimg code  starts here
 const maimformfunc = document.getElementById("mainform");
 const textformfunc = document.getElementById("text");
 const headrefunc = document.querySelectorAll(".modal-title");
 const numformfunc = document.getElementById("txt");
-const numrefunc = document.querySelectorAll(".number,.number1");
+const numrefunc = document.querySelectorAll(".number, .number1");
+const hiiText = document.getElementById("promodal");
 
-maimformfunc.addEventListener("submit", function (x) {
-  x.preventDefault();
+maimformfunc.addEventListener("submit", function (event) {
+  event.preventDefault();
   alert("Profile Details have been Changed");
-  const myfunc = textformfunc.value;
 
-  headrefunc.forEach(function (a) {
-    a.textContent = myfunc;
+  const myfunc = textformfunc.value;
+  headrefunc.forEach(function (element) {
+    element.textContent = myfunc;
   });
 
-  const numvar = numformfunc.value;
+  hiiText.textContent = `Hi, ${myfunc}`;
 
-  numrefunc.forEach(function (a) {
-    a.textContent = numvar;
+  const numvar = numformfunc.value;
+  numrefunc.forEach(function (element) {
+    element.textContent = numvar;
   });
 
   maimformfunc.reset();
 });
+
+// theme code starts here
 
 const setcolfun = document.getElementById("selcolor");
 const bodyfunc = document.getElementById("bdbgid");
@@ -157,13 +163,13 @@ setcolfun.addEventListener("change", function () {
   bodyfunc.style.backgroundColor = setcolfun.value;
 });
 
-  
-
-
+// preview image code starts here
 
 function handleFile() {
   const fileInput = document.getElementById("file");
-  const previewImages = document.querySelectorAll(".profile-img1,.profi-img,.profile-img,.profile-img2");
+  const previewImages = document.querySelectorAll(
+    ".profile-img1,.profi-img,.profile-img,.profile-img2"
+  );
 
   const selectedFile = fileInput.files[0];
 
@@ -185,15 +191,14 @@ function handleFile() {
   }
 }
 
+//  Expand image code starts here
 
-
-function expandfunc(expaimg){
+function expandfunc(expaimg) {
   document.getElementById("expand-card").style.display = "flex";
 
-   document.getElementById("srcimgid").src = expaimg.src;
-
+  document.getElementById("srcimgid").src = expaimg.src;
 }
 
-function closefunc(){
+function closefunc() {
   document.getElementById("expand-card").style.display = "none";
 }
