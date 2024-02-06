@@ -417,19 +417,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: red; */
+   
   padding: 10px;
 }
 
-/* .conty-pop{ */
-
-/* height: 80vh; */
-/* display: flex; */
-/* flex-direction: row; */
-/* justify-content: flex-end; */
-/* align-items: center; */
-/* padding-bottom: 150px; */
-/* } */
+ 
 
 #contpop {
   display: none;
@@ -851,6 +843,9 @@ li {
 
 @media screen and (min-width: 770px) {
   
+  #subscrid{
+    display: none;
+  }
    
   .proflex-card{
     text-align: center;
@@ -882,7 +877,10 @@ li {
 
 
 @media screen and (max-width: 770px) {
-  
+  #subscrid{
+    display: flex;
+  }
+   
 
  #closeid{
   display: none;
@@ -1128,3 +1126,6 @@ li {
   color: white;
   padding-top: 2px;
 }
+
+
+ 

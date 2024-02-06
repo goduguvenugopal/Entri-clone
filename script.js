@@ -202,3 +202,16 @@ function expandfunc(expaimg) {
 function closefunc() {
   document.getElementById("expand-card").style.display = "none";
 }
+
+
+
+// share buton code 
+
+
+function shareFunc(){
+  navigator.share({
+      text:"Hi Check This Entri-Clone Website",
+      url : "https://goduguvenugopal.github.io/Entri-clone/"
+
+  })
+}
